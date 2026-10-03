@@ -1,0 +1,13 @@
+[
+  {
+    "source_doc_id": "D001",
+    "category": "algorithmic_rent_setting",
+    "set": {
+      "status": "in_force",
+      "effective_date": "2026-03-01",
+      "conflict_flag": true,
+      "conflict_note": "Two published effective dates: March 1, 2026 in the ordinance text and January 2026 in an August 2026 law-firm alert. Both are before 2026-10-01, so the ban is in force either way; we use the later date."
+    },
+    "reason": "Ordinance No. 7,992-N.S. was adopted by the Berkeley City Council, so it is enacted law, not a pending bill. The model read 'passed to print' as not yet passed."
+  }
+]

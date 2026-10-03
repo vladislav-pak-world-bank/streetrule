@@ -170,6 +170,7 @@ def lookup(rules: list[dict], row: dict, as_of: str = DEFAULT_AS_OF) -> dict:
                 "result": h["result"],
                 "explanation": h["explanation"],
                 "conflict_flag": h["conflict_flag"],
+                "conflict_note": h["rule"].get("conflict_note"),
                 "title": h["rule"].get("title"),
                 "category": h["rule"].get("category"),
                 "citation": h["rule"].get("citation"),

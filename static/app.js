@@ -56,6 +56,7 @@ function card(hit) {
     <div class="result">${hit.result.replaceAll("_", " ")}</div>
     <h2>${hit.title || hit.category}</h2>
     <p>${hit.explanation}</p>
+    ${hit.conflict_flag && hit.conflict_note ? `<p class="conflict">Conflict: ${hit.conflict_note}</p>` : ""}
     <p class="cite">${hit.citation || ""}${hit.source_url ? ` · <a href="${hit.source_url}" target="_blank" rel="noopener">source</a>` : ""}</p>
     <p class="quote">${hit.quoted_span || ""}</p>
   </article>`;

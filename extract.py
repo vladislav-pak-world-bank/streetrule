@@ -172,6 +172,19 @@ def tag_dependencies(rules: list[dict]) -> None:
     print(f"tagged {len(todo)} rules, {len(rules) - len(todo)} from cache")
 
 
+def apply_corrections(rules: list[dict]) -> None:
+    """Apply reviewed fixes from review/corrections.json; each one records why."""
+    path = ROOT / "review" / "corrections.json"
+    if not path.exists():
+        return
+    for fix in json.loads(path.read_text()):
+        for rule in rules:
+            if rule["source_doc_id"] == fix["source_doc_id"] and rule["category"] == fix["category"]:
+                rule.update(fix["set"])
+                rule["interaction"] = f"Reviewed: {fix['reason']}"
+                print(f"corrected {rule['team_rule_id']} from {fix['source_doc_id']}")
+
+
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
     rows = list(csv.DictReader((ROOT / "corpus" / "corpus_manifest.csv").open()))
@@ -215,6 +228,7 @@ def main() -> None:
     for i, rule in enumerate(kept, start=1):
         rule["team_rule_id"] = f"r-{i:04d}"
     tag_dependencies(kept)
+    apply_corrections(kept)
     out = ROOT / "output" / "rules.json"
     out.write_text(json.dumps(kept, indent=2))
     print(f"wrote {len(kept)} rules to {out}")

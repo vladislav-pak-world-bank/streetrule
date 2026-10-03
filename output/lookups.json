@@ -839,6 +839,12 @@
     ],
     "A0005": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -1136,12 +1142,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -2977,6 +2977,12 @@
     ],
     "A0018": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -3274,12 +3280,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -4593,6 +4593,12 @@
     ],
     "A0025": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -4890,12 +4896,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -16077,6 +16077,12 @@
     ],
     "A0091": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -16374,17 +16380,17 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
     "A0092": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -16682,12 +16688,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -18195,6 +18195,12 @@
     ],
     "A0103": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -18492,12 +18498,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -19587,6 +19587,12 @@
     ],
     "A0109": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -19884,12 +19890,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -20579,6 +20579,12 @@
     ],
     "A0113": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -20876,12 +20882,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -28659,6 +28659,12 @@
     ],
     "A0157": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -28956,17 +28962,17 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
     "A0158": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -29264,12 +29270,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -33667,6 +33667,12 @@
     ],
     "A0183": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -33964,12 +33970,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -34667,6 +34667,12 @@
     ],
     "A0188": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -34964,17 +34970,17 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
     "A0189": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -35272,12 +35278,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -35757,6 +35757,12 @@
     ],
     "A0193": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -36054,12 +36060,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -36527,6 +36527,12 @@
     ],
     "A0197": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -36824,12 +36830,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -37291,6 +37291,12 @@
     ],
     "A0201": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -37588,12 +37594,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -38079,6 +38079,12 @@
     ],
     "A0205": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -38376,12 +38382,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -40429,6 +40429,12 @@
     ],
     "A0216": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -40726,12 +40732,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -43537,6 +43537,12 @@
     ],
     "A0234": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -43834,12 +43840,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -44957,6 +44957,12 @@
     ],
     "A0239": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -45254,12 +45260,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -49115,6 +49115,12 @@
     ],
     "A0260": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -49412,12 +49418,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -49805,6 +49805,12 @@
     ],
     "A0263": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -50102,12 +50108,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -52689,6 +52689,12 @@
     ],
     "A0277": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -52986,12 +52992,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -53953,6 +53953,12 @@
     ],
     "A0282": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -54250,12 +54256,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -55239,6 +55239,12 @@
     ],
     "A0289": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -55536,12 +55542,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -59621,6 +59621,12 @@
     ],
     "A0317": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -59918,17 +59924,17 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
     "A0318": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -60226,17 +60232,17 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
     "A0319": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -60534,12 +60540,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -63321,6 +63321,12 @@
     ],
     "A0334": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -63618,12 +63624,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -66123,6 +66123,12 @@
     ],
     "A0349": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -66420,12 +66426,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -68533,6 +68533,12 @@
     ],
     "A0363": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -68830,12 +68836,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -69967,6 +69967,12 @@
     ],
     "A0369": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -70264,12 +70270,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -70827,6 +70827,12 @@
     ],
     "A0373": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -71124,12 +71130,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -72893,6 +72893,12 @@
     ],
     "A0383": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -73190,12 +73196,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -75407,6 +75407,12 @@
     ],
     "A0395": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -75704,12 +75710,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -78853,6 +78853,12 @@
     ],
     "A0411": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -79150,12 +79156,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -80501,6 +80501,12 @@
     ],
     "A0419": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -80798,12 +80804,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -82671,6 +82671,12 @@
     ],
     "A0430": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -82968,12 +82974,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
@@ -90129,6 +90129,12 @@
     ],
     "A0469": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -90426,17 +90432,17 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],
     "A0470": [
       {
+        "team_rule_id": "r-0001",
+        "result": "applies",
+        "explanation": "Would prohibit providing covered coordinated pricing algorithms to Berkeley landlords and landlords\u2019 use of those algorithms when setting residential rents or occupancy levels.",
+        "conflict_flag": true
+      },
+      {
         "team_rule_id": "r-0003",
         "result": "applies",
         "explanation": "Owners must pay relocation assistance for owner move-in and Ellis Act evictions. Effective January 1, 2026, the standard payment is $19,413, with an additional $6,471 for qualifying households.",
@@ -90734,12 +90740,6 @@
         "team_rule_id": "r-0039",
         "result": "unknown",
         "explanation": "Depends on unit count, which the public record does not show for this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0001",
-        "result": "pending",
-        "explanation": "A bill, not law, as of the query date.",
         "conflict_flag": false
       }
     ],

@@ -94,6 +94,9 @@ section.block p.sub { color: var(--muted); max-width: 40em; margin: 0 0 28px; fo
 .steps article::before { content: counter(step, decimal-leading-zero); display: block; font-size: 12px; font-weight: 600; color: var(--signal); margin-bottom: 10px; }
 .steps h3 { font-family: var(--serif); font-weight: 500; font-size: 20px; margin: 0 0 6px; }
 .steps p { font-size: 14.5px; color: var(--muted); margin: 0; }
+.who { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+.who h3 { font-family: var(--serif); font-weight: 500; font-size: 20px; margin: 0 0 6px; }
+.who p { font-size: 14.5px; color: var(--muted); margin: 0; }
 
 footer { border-top: 1px solid var(--line); padding: 28px 0 48px; color: var(--muted); font-size: 13px; }
 footer .wrap { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
@@ -241,7 +244,7 @@ body.reporting .search input { font-size: 16px; padding: 8px 2px; }
   .top .wrap { height: auto; flex-wrap: wrap; padding-top: 12px; padding-bottom: 10px; row-gap: 6px; }
   .top nav { width: 100%; flex-wrap: wrap; gap: 12px 16px; }
   .report-head h1 { font-size: 30px; }
-  .strip .wrap, .steps, .pipeline, .examples { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .strip .wrap, .steps, .pipeline, .examples, .who { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .lede, .hero h1, .report-head h1, .where, .legal { overflow-wrap: break-word; }
   .stat, .stat + .stat { padding: 16px 12px 16px 0; border-left: 0; }
   .cases li, .contrast, .layout { grid-template-columns: 1fr; }

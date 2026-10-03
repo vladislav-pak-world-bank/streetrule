@@ -241,6 +241,8 @@ def apply_corrections(rules: list[dict]) -> None:
                 continue
             if fix.get("title_contains") and fix["title_contains"].lower() not in rule.get("title", "").lower():
                 continue
+            if fix.get("quote_contains") and fix["quote_contains"] not in rule.get("quoted_span", ""):
+                continue
             rule.update(fix["set"])
             if fix.get("conditions"):
                 rule["conditions"] = {**rule.get("conditions", {}), **fix["conditions"],

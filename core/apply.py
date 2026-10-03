@@ -163,6 +163,8 @@ def mark_superseded(hits: list[dict]) -> None:
     city_categories = {h["rule"]["category"] for h in hits if h["rule"].get("level") == "city" and h["result"] == "applies"}
     for hit in hits:
         rule = hit["rule"]
+        if rule.get("cumulative"):
+            continue
         if hit["result"] == "applies" and rule.get("level") == "state" and rule.get("category") in city_categories:
             if rule.get("category") in ("rent_increase_limits", "just_cause_eviction"):
                 hit["result"] = "superseded"

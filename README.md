@@ -51,7 +51,7 @@ flowchart LR
 
 1. **Extract.** `extract.py` sends each document to the model with a strict JSON schema. A rule survives only if its quote appears verbatim in the source.
 2. **Thresholds.** A second pass converts coverage text into fields: `built_on_or_before`, `cutoff_uses_certificate`, `exempt_if_newer_than_years`, `min_units`, `exempt_owner_occupied_max_units`, `exempt_single_family_or_condo`, `requires_public_funding`. A city's rent-increase rules inherit the cutoff stated once on another page of the same city, and record which rule it came from.
-3. **Review.** Four human corrections live in `review/corrections.json`, each with a reason and, for thresholds, a quote checked against its source. Example: San Francisco's 1979 certificate-of-occupancy cutoff is in D079, not in the rent-increase notice D080.
+3. **Review.** Five human corrections live in `review/corrections.json`, each with a reason and, for thresholds, a quote checked against its source. Example: San Francisco's 1979 certificate-of-occupancy cutoff is in D079, not in the rent-increase notice D080.
 4. **Locate.** `geocode.py` resolves each address with the US Census Geocoder. The 17 it cannot match fall back to neighborhood aliases or the city on the record, and the page says which method was used.
 5. **Decide.** `core/coverage.py` checks each threshold against the building's facts. A cutoff year is *unknown* rather than a guess when the law counts from the certificate date and the record only has a year. `core/apply.py` then applies the query date: pending, not yet effective, in force, superseded.
 

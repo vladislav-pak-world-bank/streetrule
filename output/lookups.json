@@ -237,6 +237,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -280,12 +286,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -777,6 +777,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -820,12 +826,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -1461,6 +1461,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -1504,12 +1510,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -2435,6 +2435,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -2478,12 +2484,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -2751,6 +2751,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -2824,12 +2830,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -3841,6 +3841,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -3914,12 +3920,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -5113,6 +5113,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -5186,12 +5192,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -5635,6 +5635,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -5708,12 +5714,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -5955,6 +5955,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -5998,12 +6004,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -6325,6 +6325,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -6398,12 +6404,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -7253,6 +7253,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -7326,12 +7332,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -7727,6 +7727,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -7800,12 +7806,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -9657,6 +9657,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -9730,12 +9736,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -10573,6 +10573,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -10616,12 +10622,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -10809,6 +10809,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -10882,12 +10888,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -11075,6 +11075,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -11148,12 +11154,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -11895,6 +11895,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -11938,12 +11944,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -12217,6 +12217,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -12290,12 +12296,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -12643,6 +12643,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -12716,12 +12722,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -13043,6 +13043,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -13086,12 +13092,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -13755,6 +13755,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -13798,12 +13804,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -14659,6 +14659,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -14732,12 +14738,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -14925,6 +14925,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -14998,12 +15004,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -15399,6 +15399,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -15472,12 +15478,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -17043,6 +17043,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -17116,12 +17122,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -20091,6 +20091,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -20164,12 +20170,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -20919,6 +20919,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -20992,12 +20998,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -21373,6 +21373,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -21416,12 +21422,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -22259,6 +22259,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -22302,12 +22308,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -22789,6 +22789,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -22862,12 +22868,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -23109,6 +23109,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -23152,12 +23158,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -24003,6 +24003,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -24046,12 +24052,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -24325,6 +24325,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -24398,12 +24404,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -24901,6 +24901,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -24944,12 +24950,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -25357,6 +25357,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -25430,12 +25436,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -25677,6 +25677,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -25720,12 +25726,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -26467,6 +26467,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -26540,12 +26546,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -27595,6 +27595,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -27638,12 +27644,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -28171,6 +28171,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -28244,12 +28250,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -29831,6 +29831,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -29904,12 +29910,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -31329,6 +31329,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -31372,12 +31378,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -31619,6 +31619,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -31662,12 +31668,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -32283,6 +32283,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -32326,12 +32332,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -32573,6 +32573,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -32616,12 +32622,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -33675,6 +33675,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -33718,12 +33724,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -35137,6 +35137,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -35210,12 +35216,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -35937,6 +35937,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -35980,12 +35986,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -37245,6 +37245,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -37318,12 +37324,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -38033,6 +38033,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -38106,12 +38112,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -38353,6 +38353,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -38396,12 +38402,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -39119,6 +39119,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -39192,12 +39198,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -39713,6 +39713,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -39786,12 +39792,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -40879,6 +40879,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -40952,12 +40958,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -41327,6 +41327,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -41370,12 +41376,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -41563,6 +41563,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -41636,12 +41642,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -42037,6 +42037,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -42110,12 +42116,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -42303,6 +42303,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -42376,12 +42382,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -42649,6 +42649,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -42722,12 +42728,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -43679,6 +43679,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -43752,12 +43758,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -43945,6 +43945,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -44018,12 +44024,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -44265,6 +44265,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -44308,12 +44314,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -46187,6 +46187,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -46230,12 +46236,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -47187,6 +47187,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -47260,12 +47266,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -47635,6 +47635,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -47678,12 +47684,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -48351,6 +48351,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -48424,12 +48430,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -50301,6 +50301,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -50374,12 +50380,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -50829,6 +50829,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -50902,12 +50908,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -52499,6 +52499,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -52572,12 +52578,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -52899,6 +52899,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -52972,12 +52978,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -53219,6 +53219,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -53262,12 +53268,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -55277,6 +55277,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -55350,12 +55356,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -56467,6 +56467,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -56510,12 +56516,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -56957,6 +56957,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -57030,12 +57036,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -57613,6 +57613,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -57656,12 +57662,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -58331,6 +58331,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -58374,12 +58380,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -60563,6 +60563,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -60606,12 +60612,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -60799,6 +60799,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -60872,12 +60878,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -61381,6 +61381,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -61424,12 +61430,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -61617,6 +61617,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -61690,12 +61696,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -63023,6 +63023,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -63096,12 +63102,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -63759,6 +63759,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -63802,12 +63808,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -64645,6 +64645,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -64688,12 +64694,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -65959,6 +65959,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -66032,12 +66038,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -68181,6 +68181,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -68254,12 +68260,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -69041,6 +69041,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -69114,12 +69120,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -69669,6 +69669,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -69712,12 +69718,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -70723,6 +70723,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -70796,12 +70802,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -71925,6 +71925,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -71998,12 +72004,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -72499,6 +72499,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -72572,12 +72578,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -75255,6 +75255,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -75328,12 +75334,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -75521,6 +75521,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -75594,12 +75600,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -76043,6 +76043,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -76116,12 +76122,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -76309,6 +76309,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -76382,12 +76388,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -77183,6 +77183,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -77226,12 +77232,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -77473,6 +77473,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -77516,12 +77522,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -78787,6 +78787,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -78860,12 +78866,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -80361,6 +80361,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -80404,12 +80410,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -80891,6 +80891,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -80964,12 +80970,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -82779,6 +82779,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -82822,12 +82828,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -83015,6 +83015,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -83088,12 +83094,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -84173,6 +84173,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -84246,12 +84252,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -85335,6 +85335,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -85378,12 +85384,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -86477,6 +86477,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -86520,12 +86526,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -86847,6 +86847,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -86890,12 +86896,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -87471,6 +87471,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -87544,12 +87550,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -87791,6 +87791,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -87834,12 +87840,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -88289,6 +88289,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -88362,12 +88368,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -90205,6 +90205,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -90248,12 +90254,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -90697,6 +90697,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -90770,12 +90776,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -91719,6 +91719,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -91792,12 +91798,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -92119,6 +92119,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -92192,12 +92198,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -92385,6 +92385,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -92458,12 +92464,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -92731,6 +92731,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -92804,12 +92810,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -92997,6 +92997,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -93070,12 +93076,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -93963,6 +93963,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -94036,12 +94042,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -94229,6 +94229,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0110",
         "result": "applies",
         "explanation": "The ordinance protects residents with arrest or conviction history in affordable housing decisions.",
@@ -94302,12 +94308,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -95319,6 +95319,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -95362,12 +95368,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false
@@ -95609,6 +95609,12 @@
         "conflict_flag": false
       },
       {
+        "team_rule_id": "r-0066",
+        "result": "applies",
+        "explanation": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
+        "conflict_flag": false
+      },
+      {
         "team_rule_id": "r-0067",
         "result": "applies",
         "explanation": "Landlords may pass through the RSO and SCEP surcharges with proper written notice; the surcharges may be collected only after the landlord registers the units and gives written notice to the tenant.",
@@ -95652,12 +95658,6 @@
       },
       {
         "team_rule_id": "r-0038",
-        "result": "superseded",
-        "explanation": "A local rule on the same subject governs this address.",
-        "conflict_flag": false
-      },
-      {
-        "team_rule_id": "r-0066",
         "result": "superseded",
         "explanation": "A local rule on the same subject governs this address.",
         "conflict_flag": false

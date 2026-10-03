@@ -1,5 +1,15 @@
 [
   {
+    "source_doc_id": "D042",
+    "category": "rent_increase_limits",
+    "quote_contains": "30 days' written advance notice",
+    "set": {
+      "title": "Written notice before a rent increase",
+      "cumulative": true
+    },
+    "reason": "This is a California-wide notice rule quoted on the Los Angeles RSO calculator page, so the page title misdescribed it outside Los Angeles. A notice requirement binds alongside local rent control, so a city rent cap does not supersede it."
+  },
+  {
     "source_doc_id": "D001",
     "category": "algorithmic_rent_setting",
     "set": {

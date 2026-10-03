@@ -2398,7 +2398,7 @@
     "level": "state",
     "category": "rent_increase_limits",
     "status": "in_force",
-    "title": "RSO Rent Increase Calculator \u2013 LAHD",
+    "title": "Written notice before a rent increase",
     "requirement": "Landlords must provide 30 days' written advance notice of rent increases below 10%.",
     "key_value": "30 days' written advance notice for rent increases of less than 10%",
     "coverage_conditions": "Rent increases of less than 10%.",
@@ -2412,7 +2412,7 @@
     "source_doc_id": "D042",
     "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
     "overrides": [],
-    "interaction": null,
+    "interaction": "Reviewed: This is a California-wide notice rule quoted on the Los Angeles RSO calculator page, so the page title misdescribed it outside Los Angeles. A notice requirement binds alongside local rent control, so a city rent cap does not supersede it.",
     "team_rule_id": "r-0066",
     "depends_on": [],
     "conditions": {
@@ -2426,7 +2426,8 @@
       "exempt_single_family_or_condo": false,
       "requires_public_funding": false,
       "evidence": ""
-    }
+    },
+    "cumulative": true
   },
   {
     "jurisdiction": "Los Angeles, CA",

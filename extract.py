@@ -179,10 +179,13 @@ def apply_corrections(rules: list[dict]) -> None:
         return
     for fix in json.loads(path.read_text()):
         for rule in rules:
-            if rule["source_doc_id"] == fix["source_doc_id"] and rule["category"] == fix["category"]:
-                rule.update(fix["set"])
-                rule["interaction"] = f"Reviewed: {fix['reason']}"
-                print(f"corrected {rule['team_rule_id']} from {fix['source_doc_id']}")
+            if rule["source_doc_id"] != fix["source_doc_id"] or rule["category"] != fix["category"]:
+                continue
+            if fix.get("title_contains") and fix["title_contains"].lower() not in rule.get("title", "").lower():
+                continue
+            rule.update(fix["set"])
+            rule["interaction"] = f"Reviewed: {fix['reason']}"
+            print(f"corrected {rule['team_rule_id']} from {fix['source_doc_id']}")
 
 
 def main() -> None:

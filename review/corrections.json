@@ -9,5 +9,26 @@
       "conflict_note": "Two published effective dates: March 1, 2026 in the ordinance text and January 2026 in an August 2026 law-firm alert. Both are before 2026-10-01, so the ban is in force either way; we use the later date."
     },
     "reason": "Ordinance No. 7,992-N.S. was adopted by the Berkeley City Council, so it is enacted law, not a pending bill. The model read 'passed to print' as not yet passed."
+  },
+  {
+    "source_doc_id": "D005",
+    "category": "application_screening_fees",
+    "title_contains": "limits and accounting",
+    "set": {
+      "quoted_span": "The maximum tenant screening fee for 2026 is $68.96",
+      "conflict_flag": true,
+      "conflict_note": "Two figures are published. Civil Code section 1950.6 states a $30 base, adjusted each year with the Consumer Price Index. Berkeley's Rent Board states the 2026 maximum is $68.96. The corpus has no single official statewide dollar amount for 2026."
+    },
+    "reason": "The verified quote left out the dollar amount, which sits on the next line of the same page. The brief names this cap as an open question."
+  },
+  {
+    "source_doc_id": "D026",
+    "category": "application_screening_fees",
+    "title_contains": "amount limit",
+    "set": {
+      "conflict_flag": true,
+      "conflict_note": "The statute states $30, adjusted each year with the Consumer Price Index since 1998. Berkeley's Rent Board states the 2026 maximum is $68.96. Both figures are in the corpus; neither page is a single official statewide 2026 amount."
+    },
+    "reason": "Surfaces the screening-fee cap conflict the brief lists as a known open question."
   }
 ]

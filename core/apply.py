@@ -23,6 +23,21 @@ def load_rules() -> list[dict]:
     return json.loads(path.read_text()) if path.exists() else []
 
 
+def load_gaps() -> list[dict]:
+    with (ROOT / "corpus" / "links_only.csv").open() as f:
+        return list(csv.DictReader(f))
+
+
+def gaps_for_address(row: dict) -> list[dict]:
+    city, state = legal_place(row["postal_city"], row["state"])
+    names = jurisdiction_names(city, state)
+    return [
+        {"doc_id": g["doc_id"], "url": g["url"]}
+        for g in load_gaps()
+        if names & {j.strip() for j in g["jurisdictions"].split(";")}
+    ]
+
+
 def _blank(value: str | None) -> bool:
     return not (value or "").strip()
 
@@ -125,6 +140,7 @@ def lookup(rules: list[dict], row: dict, as_of: str = DEFAULT_AS_OF) -> dict:
         "year_built": row.get("year_built") or None,
         "units": row.get("units") or None,
         "as_of": as_of,
+        "gaps": gaps_for_address(row),
         "hits": [
             {
                 "team_rule_id": h["team_rule_id"],

@@ -2,6 +2,7 @@
 
 import csv
 import json
+import re
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -20,6 +21,8 @@ Today's query date is {AS_OF}. Only extract rules in these categories:
 rent_increase_limits, just_cause_eviction, security_deposits, application_screening_fees, screening_restrictions, algorithmic_rent_setting.
 Status is as of {AS_OF}: in_force, not_yet_effective, pending, or failed.
 A law with an effective date after {AS_OF} is not_yet_effective. A bill that has not passed is pending. A proposal that was struck or vetoed is failed.
+A law of general application counts when it governs how residential rent is set, for example an antitrust ban on common pricing algorithms: categorize it as algorithmic_rent_setting.
+A chaptered or enacted statute is in_force or not_yet_effective, never pending.
 quoted_span must be copied exactly from the document, at least 20 characters, with no paraphrase.
 citation is the official cite if the document states one, otherwise the document title.
 If the document states no rule in those categories, return an empty list.
@@ -74,6 +77,51 @@ def chunks(text: str) -> list[str]:
     return parts
 
 
+STATES = {"california": "CA", "new jersey": "NJ", "massachusetts": "MA", "ca": "CA", "nj": "NJ", "ma": "MA"}
+
+
+def normalize_jurisdiction(rule: dict, manifest: str) -> str:
+    """Return 'CA' for a state rule, 'City, ST' for a city rule, using the manifest when the model drifts."""
+    raw = (rule.get("jurisdiction") or "").strip()
+    listed = [j.strip() for j in manifest.split(";") if j.strip()] or [manifest.strip()]
+    low = raw.lower()
+    if "municipalit" in low or "statewide" in low or any(name in low for name in ("california", "new jersey", "massachusetts")):
+        rule["level"] = "state"
+    if rule.get("level") == "state":
+        code = STATES.get(raw.lower())
+        if code:
+            return code
+        for j in listed:
+            tail = j.split(",")[-1].strip()
+            if tail.upper() in ("CA", "NJ", "MA"):
+                return tail.upper()
+        return raw
+    for j in listed:
+        if "," in j and j.split(",")[0].strip().lower() in raw.lower():
+            return j
+    state = listed[0].split(",")[-1].strip().upper()
+    city = raw.split(",")[0].strip()
+    for prefix in ("City of ", "City and County of "):
+        if city.startswith(prefix):
+            city = city[len(prefix):]
+    if city and state in ("CA", "NJ", "MA"):
+        return f"{city}, {state}"
+    return listed[0]
+
+
+def california_default_date(rule: dict, source: str) -> None:
+    """Cal. Const. art. IV, sec. 8(c): a non-urgency statute takes effect January 1 after enactment."""
+    if rule.get("jurisdiction") != "CA" or rule.get("effective_date") or rule.get("status") in ("pending", "failed"):
+        return
+    match = re.search(r"(\d{2})/(\d{2})/(\d{2})\s*-\s*Chaptered", source)
+    if not match or "urgency" in source.lower():
+        return
+    year = 2000 + int(match.group(3))
+    rule["effective_date"] = f"{year + 1}-01-01"
+    rule["status"] = "in_force" if rule["effective_date"] <= AS_OF else "not_yet_effective"
+    rule["interaction"] = "Effective date from Cal. Const. art. IV, sec. 8(c): statutes chaptered without an urgency clause take effect January 1 of the next year."
+
+
 def quote_in_source(quote: str, source: str) -> str | None:
     if not quote or len(quote) < 20:
         return None
@@ -116,10 +164,12 @@ def main() -> None:
                 if not span:
                     continue
                 rule["quoted_span"] = span
+                rule["jurisdiction"] = normalize_jurisdiction(rule, doc["jurisdictions"])
                 rule["source_doc_id"] = doc["doc_id"]
                 rule["source_url"] = doc["url"]
                 rule["overrides"] = []
                 rule["interaction"] = None
+                california_default_date(rule, source)
                 found.append(rule)
         cache.write_text(json.dumps(found, indent=2))
         kept.extend(found)

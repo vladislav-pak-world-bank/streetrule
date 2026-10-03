@@ -1,5 +1,5 @@
 import csv
-import os
+from datetime import date
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -10,7 +10,7 @@ from fastapi.staticfiles import StaticFiles
 ROOT = Path(__file__).resolve().parent
 load_dotenv(ROOT / ".env")
 
-from core.apply import DEFAULT_AS_OF, change_demos, load_rules, lookup  # noqa: E402
+from core.apply import DEFAULT_AS_OF, change_demos, insights, load_rules, lookup  # noqa: E402
 from core.llm import available  # noqa: E402
 
 app = FastAPI(title="StreetRule")
@@ -32,9 +32,19 @@ def changes_page():
     return FileResponse(ROOT / "static" / "changes.html")
 
 
+@app.get("/method")
+def method_page():
+    return FileResponse(ROOT / "static" / "method.html")
+
+
 @app.get("/api/changes")
 def changes():
     return change_demos()
+
+
+@app.get("/api/insights")
+def get_insights():
+    return insights()
 
 
 @app.get("/api/health")
@@ -58,8 +68,20 @@ def list_addresses(q: str = ""):
 
 
 @app.get("/api/lookup")
-def get_lookup(address_id: str, as_of: str = DEFAULT_AS_OF):
+def get_lookup(
+    address_id: str,
+    as_of: str = DEFAULT_AS_OF,
+    year_built: str = "",
+    units: str = "",
+    owner_occupied: str = "",
+    public_funding: str = "",
+):
     row = next((r for r in addresses() if r["address_id"] == address_id), None)
     if row is None:
         raise HTTPException(404, "Address not in the sample")
-    return lookup(load_rules(), row, as_of)
+    try:
+        date.fromisoformat(as_of)
+    except ValueError:
+        raise HTTPException(400, "as_of must be a date like 2026-10-01")
+    overrides = {"year_built": year_built, "units": units, "owner_occupied": owner_occupied, "public_funding": public_funding}
+    return lookup(load_rules(), row, as_of, overrides)

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StreetRule · Method and evidence</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="/">Street<b>Rule</b></a>
+      <nav>
+        <a href="/">Lookup</a>
+        <a href="/changes">Change tests</a>
+        <a href="/method" class="on">Method</a>
+        <a href="https://github.com/vladislav-pak-world-bank/streetrule">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-head">
+    <div class="wrap">
+      <h1>Method and evidence</h1>
+      <p>How an answer is produced, how we know it holds, and where it stops. Every number on this page is computed from the files in the repository.</p>
+    </div>
+  </div>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>The pipeline</h2>
+      <p class="sub">The model reads; arithmetic decides. Language models extract text into fields, and every decision about an address is deterministic code you can test.</p>
+      <div class="pipeline">
+        <div><b>1. Extract</b>Each document goes to the model with a strict JSON schema. Quotes not found verbatim in the source are discarded.<br><code>extract.py</code></div>
+        <div><b>2. Thresholds</b>Coverage text becomes fields: cutoff dates, unit limits, exemptions. Contradictory cutoffs are dropped.<br><code>extract.py</code></div>
+        <div><b>3. Review</b>Human fixes live in one file, each with a reason and, for thresholds, a verified quote.<br><code>review/corrections.json</code></div>
+        <div><b>4. Locate</b>The US Census Geocoder gives each address its incorporated place. Matches to another house number are rejected.<br><code>geocode.py</code></div>
+        <div><b>5. Decide</b>Status against the query date, then each threshold against the building's facts. Every check is returned.<br><code>core/coverage.py</code></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>Against a naive baseline</h2>
+      <p class="sub">The naive baseline is what most lookups do: take the mailing city and list every rule for that city and state.</p>
+      <table class="metrics" id="metrics"></table>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>What the tests check</h2>
+      <p class="sub">The automated suite (<code>uv run pytest</code>) runs over every extracted rule, not one example.</p>
+      <ul class="plain-list">
+        <li>Every quote appears in its source document.</li>
+        <li>Every rule's jurisdiction matches the document it came from.</li>
+        <li>A rule marked in force never has an effective date after the query date, and the reverse.</li>
+        <li>A numbered ordinance with a recorded vote is never labeled a bill; an unsigned draft is never labeled law.</li>
+        <li>Certificate-of-occupancy cutoffs return unknown for a building in the cutoff year, as the brief requires.</li>
+        <li>A supplied fact settles an unknown; a match to a different house number is rejected.</li>
+        <li>Change tests T1–T5 produce the behavior the brief expects.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>Where it stops</h2>
+      <p class="sub">Stated so nobody relies on what isn't there.</p>
+      <ul class="plain-list">
+        <li>Hoboken's ordinances, Jersey City's algorithmic ban, Newark's code and the struck Massachusetts ballot question are links with no text in the corpus. Those addresses list the links instead of inventing rules.</li>
+        <li>San Diego's algorithmic ordinance in the corpus is an unsigned draft, so it stays pending.</li>
+        <li>Los Angeles's second published RSO date (2026-01-24, per a landlord association) is not in the corpus, so only LAHD's date is shown.</li>
+        <li>Owner names are excluded from the data, so owner-type exemptions stay unknown unless a user supplies the fact.</li>
+        <li>Not legal advice. A research prototype on a fixed corpus as of 1 Oct 2026.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span>StreetRule · Not legal advice.</span>
+      <span>Built at Hack-Nation 7, New York hub.</span>
+    </div>
+  </footer>
+  <script>
+    const fmt = (n) => Number(n).toLocaleString("en-US");
+    fetch("/api/insights").then((r) => r.json()).then((d) => {
+      const rows = [
+        ["Legal city", `${fmt(d.naive_wrong_city)} of ${fmt(d.addresses)} addresses wrong (neighborhood names such as Dorchester)`, `${fmt(d.place_methods.census || 0)} confirmed by the US Census; the rest resolved from the record, none contradicting the Census`],
+        ["Coverage", `${fmt(d.naive_overreach)} rule-and-building pairs reported as applying although the building is outside the rule's cutoff`, "Excluded, with the failing check shown"],
+        ["Missing facts", "Silently assumed covered", `${fmt(d.results.unknown || 0)} answers marked unknown, each naming the missing fact`],
+        ["Bills and future laws", "Listed beside law in force", `${fmt(d.pending_or_future)} rules kept separate as pending or not yet in force`],
+        ["Citations", "Often paraphrased", `All ${fmt(d.rules)} rules carry a quote verified against the source text`],
+      ];
+      document.getElementById("metrics").innerHTML = "<tr><th></th><th>Naive baseline</th><th>StreetRule</th></tr>" +
+        rows.map((r) => `<tr><td><b>${r[0]}</b></td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join("");
+    });
+  </script>
+</body>
+</html>

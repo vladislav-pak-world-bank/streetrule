@@ -1,0 +1,2504 @@
+{
+ "A0001": {
+  "geoid": "0644000",
+  "matched": "6238 DE LONGPRE AVE, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0002": {
+  "geoid": "3432250",
+  "matched": "1031 CLINTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0003": {
+  "geoid": "3451000",
+  "matched": "876 S 14TH ST, NEWARK, NJ, 07108",
+  "place": "Newark"
+ },
+ "A0004": {
+  "geoid": "0644000",
+  "matched": "10050 MOUNTAIR AVE, TUJUNGA, CA, 91042",
+  "place": "Los Angeles"
+ },
+ "A0005": {
+  "geoid": "0606000",
+  "matched": "1609 ADDISON ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0006": {
+  "geoid": "2507000",
+  "matched": "69 WESTLAND AVE, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0007": {
+  "geoid": "0644000",
+  "matched": "4257 SAN PEDRO PL, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0008": {
+  "geoid": "3436000",
+  "matched": "1065 SUMMIT AVE, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0009": {
+  "geoid": "2511000",
+  "matched": "322 WESTERN AVE, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0010": {
+  "geoid": "2511000",
+  "matched": "134 OXFORD ST, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0011": {
+  "geoid": "3451000",
+  "matched": "834 RAYMOND BLVD, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0012": {
+  "geoid": "3436000",
+  "matched": "1064 SUMMIT AVE, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0013": {
+  "geoid": "3451000",
+  "matched": "137 N 11TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0014": {
+  "geoid": "0644000",
+  "matched": "5907 CAHUENGA BLVD, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0015": {
+  "geoid": "2511000",
+  "matched": "15 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0016": {
+  "geoid": "0667000",
+  "matched": "3515 FILLMORE ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0017": {
+  "geoid": "3436000",
+  "matched": "225 DUNCAN AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0018": {
+  "geoid": "0606000",
+  "matched": "1906 BONITA AVE, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0019": {
+  "geoid": "0666000",
+  "matched": "3820 HAINES ST, SAN DIEGO, CA, 92109",
+  "place": "San Diego"
+ },
+ "A0020": {
+  "geoid": "3451000",
+  "matched": "646 N 6TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0021": {
+  "geoid": "0667000",
+  "matched": "22 PRECITA AVE, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0022": {
+  "geoid": "0644000",
+  "matched": "10908 HARTSOOK ST, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0023": {
+  "geoid": "0644000",
+  "matched": "843 IROLO ST, LOS ANGELES, CA, 90005",
+  "place": "Los Angeles"
+ },
+ "A0024": {
+  "geoid": "2511000",
+  "matched": "227 CHARLES ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0025": {
+  "geoid": "0606000",
+  "matched": "2341 8TH ST, BERKELEY, CA, 94710",
+  "place": "Berkeley"
+ },
+ "A0026": {
+  "geoid": "3436000",
+  "matched": "59 OAK ST, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0027": {
+  "geoid": "0667000",
+  "matched": "3918 FULTON ST, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0028": {
+  "geoid": "3451000",
+  "matched": "585 N 5TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0029": {
+  "geoid": "3451000",
+  "matched": "280 VERONA AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0030": {
+  "geoid": "0667000",
+  "matched": "2051 DIVISADERO ST, SAN FRANCISCO, CA, 94115",
+  "place": "San Francisco"
+ },
+ "A0031": {
+  "geoid": "0644000",
+  "matched": "5624 S SAN PEDRO ST, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0032": {
+  "geoid": "3436000",
+  "matched": "63 OAK ST, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0033": {
+  "geoid": "0667000",
+  "matched": "1260 KEARNY ST, SAN FRANCISCO, CA, 94133",
+  "place": "San Francisco"
+ },
+ "A0034": {
+  "geoid": "2511000",
+  "matched": "25 GORE ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0035": {
+  "geoid": "0644000",
+  "matched": "5239 HARMONY AVE, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0036": {
+  "geoid": "2507000",
+  "matched": "33 WARD ST, SOUTH BOSTON, MA, 02127",
+  "place": "Boston"
+ },
+ "A0037": {
+  "geoid": "0644000",
+  "matched": "770 IROLO ST, LOS ANGELES, CA, 90005",
+  "place": "Los Angeles"
+ },
+ "A0038": {
+  "geoid": "0667000",
+  "matched": "154 YUKON ST, SAN FRANCISCO, CA, 94114",
+  "place": "San Francisco"
+ },
+ "A0039": {
+  "geoid": "2511000",
+  "matched": "1 CRAIGIE ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0040": {
+  "geoid": "3432250",
+  "matched": "69 JACKSON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0041": {
+  "geoid": "0667000",
+  "matched": "122 TIFFANY AVE, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0042": {
+  "geoid": "3436000",
+  "matched": "320 FORREST ST, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0043": {
+  "geoid": "2511000",
+  "matched": "4 ORCHARD ST, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0044": {
+  "geoid": "3451000",
+  "matched": "773 SANDFORD AVE, NEWARK, NJ, 07106",
+  "place": "Newark"
+ },
+ "A0045": {
+  "geoid": "0644000",
+  "matched": "12829 BRANFORD ST, PACOIMA, CA, 91331",
+  "place": "Los Angeles"
+ },
+ "A0046": {
+  "geoid": "2511000",
+  "matched": "8 SODEN ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0047": {
+  "geoid": "3436000",
+  "matched": "14 RUTGERS AVE, JERSEY CITY, NJ, 07305",
+  "place": "Jersey City"
+ },
+ "A0048": {
+  "geoid": "2507000",
+  "matched": "1619 COMMONWEALTH AVE, BRIGHTON, MA, 02135",
+  "place": "Boston"
+ },
+ "A0049": {
+  "geoid": "3432250",
+  "matched": "721 CLINTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0050": {
+  "geoid": "0667000",
+  "matched": "36 HOFF ST, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0051": {
+  "geoid": "3436000",
+  "matched": "65 OAKLAND AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0052": {
+  "geoid": "2507000",
+  "matched": "88 GARDNER ST, ALLSTON, MA, 02134",
+  "place": "Boston"
+ },
+ "A0053": {
+  "geoid": "2507000",
+  "matched": "32 GARRISON ST, BOSTON, MA, 02116",
+  "place": "Boston"
+ },
+ "A0054": {
+  "geoid": "2507000",
+  "matched": "13 SHETLAND ST, ROXBURY, MA, 02119",
+  "place": "Boston"
+ },
+ "A0055": {
+  "geoid": "0667000",
+  "matched": "305 10TH AVE, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0056": {
+  "geoid": "2507000",
+  "matched": "41 EDGERLY RD, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0057": {
+  "geoid": "3451000",
+  "matched": "57 STONE ST, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0058": {
+  "geoid": "0666000",
+  "matched": "3137 BOSTON AVE, SAN DIEGO, CA, 92113",
+  "place": "San Diego"
+ },
+ "A0059": {
+  "geoid": "3451000",
+  "matched": "84 WALNUT ST, NEWARK, NJ, 07102",
+  "place": "Newark"
+ },
+ "A0060": {
+  "geoid": "0644000",
+  "matched": "5737 WILLOWCREST AVE, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0061": {
+  "geoid": "0667000",
+  "matched": "106 18TH AVE, SAN FRANCISCO, CA, 94121",
+  "place": "San Francisco"
+ },
+ "A0062": {
+  "geoid": "0667000",
+  "matched": "77 HOFF ST, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0063": {
+  "geoid": "2507000",
+  "matched": "11 CORTES ST, BOSTON, MA, 02116",
+  "place": "Boston"
+ },
+ "A0064": {
+  "geoid": "2511000",
+  "matched": "24 CONCORD AVE, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0065": {
+  "geoid": "2507000",
+  "matched": "63 BAILEY ST, DORCHESTER, MA, 02124",
+  "place": "Boston"
+ },
+ "A0066": {
+  "geoid": "0644000",
+  "matched": "1318 N ORANGE DR, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0067": {
+  "geoid": "0644000",
+  "matched": "1335 N VISTA ST, LOS ANGELES, CA, 90046",
+  "place": "Los Angeles"
+ },
+ "A0068": {
+  "geoid": "2507000",
+  "matched": "40 CLEARWAY ST, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0069": {
+  "geoid": "0667000",
+  "matched": "2277 UNION ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0070": {
+  "geoid": "2511000",
+  "matched": "43 FAYETTE ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0071": {
+  "geoid": null,
+  "matched": "16 VANDINE ST, CAMBRIDGE, MA, 02141",
+  "place": null,
+  "rejected": "different house number"
+ },
+ "A0072": {
+  "geoid": "0667000",
+  "matched": "1251 10TH AVE, SAN FRANCISCO, CA, 94122",
+  "place": "San Francisco"
+ },
+ "A0073": {
+  "geoid": "2511000",
+  "matched": "35 INMAN ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0074": {
+  "geoid": "0644000",
+  "matched": "717 S BERENDO ST, LOS ANGELES, CA, 90005",
+  "place": "Los Angeles"
+ },
+ "A0075": {
+  "geoid": "2511000",
+  "matched": "27 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0076": {
+  "geoid": "3451000",
+  "matched": "304 E KINNEY ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0077": {
+  "geoid": "2511000",
+  "matched": "91 BROOKLINE ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0078": {
+  "geoid": "3436000",
+  "matched": "115 BAYVIEW AVE, JERSEY CITY, NJ, 07305",
+  "place": "Jersey City"
+ },
+ "A0079": {
+  "geoid": "0644000",
+  "matched": "2361 PORTLAND ST, LOS ANGELES, CA, 90007",
+  "place": "Los Angeles"
+ },
+ "A0080": {
+  "geoid": "0644000",
+  "matched": "690 S CATALINA ST, LOS ANGELES, CA, 90005",
+  "place": "Los Angeles"
+ },
+ "A0081": {
+  "geoid": "0667000",
+  "matched": "145 TAYLOR ST, SAN FRANCISCO, CA, 94102",
+  "place": "San Francisco"
+ },
+ "A0082": {
+  "geoid": "2511000",
+  "matched": "63 INMAN ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0083": {
+  "geoid": "2507000",
+  "matched": "38 KENILWORTH ST, ROXBURY, MA, 02119",
+  "place": "Boston"
+ },
+ "A0084": {
+  "geoid": "0667000",
+  "matched": "1725 CHESTNUT ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0085": {
+  "geoid": "0667000",
+  "matched": "1101 CHURCH ST, SAN FRANCISCO, CA, 94114",
+  "place": "San Francisco"
+ },
+ "A0086": {
+  "geoid": "2511000",
+  "matched": "67 PLYMOUTH ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0087": {
+  "geoid": "3432250",
+  "matched": "323 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0088": {
+  "geoid": "0667000",
+  "matched": "201 CLEMENT ST, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0089": {
+  "geoid": "3432250",
+  "matched": "935 PARK AVE, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0090": {
+  "geoid": "3451000",
+  "matched": "30 JACKSON ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0091": {
+  "geoid": "0606000",
+  "matched": "2229 DWIGHT WAY, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0092": {
+  "geoid": "0606000",
+  "matched": "2514 PIEDMONT AVE, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0093": {
+  "geoid": "2507000",
+  "matched": "90 BICKFORD ST, JAMAICA PLAIN, MA, 02130",
+  "place": "Boston"
+ },
+ "A0094": {
+  "geoid": "0666000",
+  "matched": "1371 27TH ST, SAN DIEGO, CA, 92154",
+  "place": "San Diego"
+ },
+ "A0095": {
+  "geoid": "2511000",
+  "matched": "23 ELM ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0096": {
+  "geoid": "2507000",
+  "matched": "81 WESTLAND AVE, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0097": {
+  "geoid": "0667000",
+  "matched": "1560 MASON ST, SAN FRANCISCO, CA, 94133",
+  "place": "San Francisco"
+ },
+ "A0098": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0099": {
+  "geoid": "3432250",
+  "matched": "822 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0100": {
+  "geoid": "0666000",
+  "matched": "4732 BANCROFT ST, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0101": {
+  "geoid": "3436000",
+  "matched": "315 FAIRMOUNT AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0102": {
+  "geoid": "3432250",
+  "matched": "124 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0103": {
+  "geoid": "0606000",
+  "matched": "2161 ALLSTON WAY, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0104": {
+  "geoid": "3451000",
+  "matched": "409 N 5TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0105": {
+  "geoid": "0667000",
+  "matched": "140 PORTOLA DR, SAN FRANCISCO, CA, 94131",
+  "place": "San Francisco"
+ },
+ "A0106": {
+  "geoid": "0667000",
+  "matched": "250 FREMONT ST, SAN FRANCISCO, CA, 94105",
+  "place": "San Francisco"
+ },
+ "A0107": {
+  "geoid": "0644000",
+  "matched": "10635 SHERMAN GROVE AVE, SUNLAND, CA, 91040",
+  "place": "Los Angeles"
+ },
+ "A0108": {
+  "geoid": "3436000",
+  "matched": "13 JEFFERSON AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0109": {
+  "geoid": "0606000",
+  "matched": "2922 OTIS ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0110": {
+  "geoid": "3451000",
+  "matched": "130 2ND AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0111": {
+  "geoid": "0644000",
+  "matched": "10075 TUJUNGA CANYON BLVD, TUJUNGA, CA, 91042",
+  "place": "Los Angeles"
+ },
+ "A0112": {
+  "geoid": "0667000",
+  "matched": "448 BRODERICK ST, SAN FRANCISCO, CA, 94117",
+  "place": "San Francisco"
+ },
+ "A0113": {
+  "geoid": "0606000",
+  "matched": "3151 ETON AVE, BERKELEY, CA, 94705",
+  "place": "Berkeley"
+ },
+ "A0114": {
+  "geoid": "0666000",
+  "matched": "3743 INDIA ST, SAN DIEGO, CA, 92103",
+  "place": "San Diego"
+ },
+ "A0115": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0116": {
+  "geoid": "3436000",
+  "matched": "36 PROSPECT ST, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0117": {
+  "geoid": "0644000",
+  "matched": "1733 N CHEROKEE AVE, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0118": {
+  "geoid": "2507000",
+  "matched": "18 KINGBIRD RD, DORCHESTER, MA, 02124",
+  "place": "Boston"
+ },
+ "A0119": {
+  "geoid": "3432250",
+  "matched": "607 ADAMS ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0120": {
+  "geoid": "3451000",
+  "matched": "139 ELM ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0121": {
+  "geoid": "0666000",
+  "matched": "4079 FRONT ST, SAN DIEGO, CA, 92103",
+  "place": "San Diego"
+ },
+ "A0122": {
+  "geoid": "0644000",
+  "matched": "4812 S BROADWAY, LOS ANGELES, CA, 90037",
+  "place": "Los Angeles"
+ },
+ "A0123": {
+  "geoid": "2507000",
+  "matched": "123 CONDOR ST, EAST BOSTON, MA, 02128",
+  "place": "Boston"
+ },
+ "A0124": {
+  "geoid": "2511000",
+  "matched": "33 BROOKLINE ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0125": {
+  "geoid": "3432250",
+  "matched": "227 GRAND ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0126": {
+  "geoid": "0667000",
+  "matched": "1350 POTRERO AVE, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0127": {
+  "geoid": "0644000",
+  "matched": "10029 N SEPULVEDA BLVD, MISSION HILLS, CA, 91345",
+  "place": "Los Angeles"
+ },
+ "A0128": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0129": {
+  "geoid": "3451000",
+  "matched": "526 MULBERRY ST, NEWARK, NJ, 07114",
+  "place": "Newark"
+ },
+ "A0130": {
+  "geoid": "3451000",
+  "matched": "554 MARKET ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0131": {
+  "geoid": "3436000",
+  "matched": "43 POPLAR ST, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0132": {
+  "geoid": "3451000",
+  "matched": "587 N 6TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0133": {
+  "geoid": "0644000",
+  "matched": "8819 LANKERSHIM BLVD, SUN VALLEY, CA, 91352",
+  "place": "Los Angeles"
+ },
+ "A0134": {
+  "geoid": "2507000",
+  "matched": "101 NORFOLK ST, DORCHESTER, MA, 02124",
+  "place": "Boston"
+ },
+ "A0135": {
+  "geoid": "0667000",
+  "matched": "843 CLAY ST, SAN FRANCISCO, CA, 94108",
+  "place": "San Francisco"
+ },
+ "A0136": {
+  "geoid": "3432250",
+  "matched": "920 HUDSON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0137": {
+  "geoid": "3451000",
+  "matched": "65 NORFOLK ST, NEWARK, NJ, 07103",
+  "place": "Newark"
+ },
+ "A0138": {
+  "geoid": "0644000",
+  "matched": "1033 E 51ST ST, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0139": {
+  "geoid": "3436000",
+  "matched": "54 STUYVESANT AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0140": {
+  "geoid": "2507000",
+  "matched": "459 BEACON ST, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0141": {
+  "geoid": "0667000",
+  "matched": "2601 43RD AVE, SAN FRANCISCO, CA, 94116",
+  "place": "San Francisco"
+ },
+ "A0142": {
+  "geoid": "0644000",
+  "matched": "4615 AVALON BLVD, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0143": {
+  "geoid": "2507000",
+  "matched": "75 ELM HILL AVE, DORCHESTER, MA, 02121",
+  "place": "Boston"
+ },
+ "A0144": {
+  "geoid": "2507000",
+  "matched": "112 AMORY ST, ROXBURY, MA, 02119",
+  "place": "Boston"
+ },
+ "A0145": {
+  "geoid": "0666000",
+  "matched": "4515 FELTON ST, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0146": {
+  "geoid": "3451000",
+  "matched": "93 HAWKINS ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0147": {
+  "geoid": "0667000",
+  "matched": "2850 GOLDEN GATE AVE, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0148": {
+  "geoid": "3451000",
+  "matched": "162 5TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0149": {
+  "geoid": "2507000",
+  "matched": "25 EVERETT ST, EAST BOSTON, MA, 02128",
+  "place": "Boston"
+ },
+ "A0150": {
+  "geoid": "0666000",
+  "matched": "3784 BROADWAY, SAN DIEGO, CA, 92102",
+  "place": "San Diego"
+ },
+ "A0151": {
+  "geoid": "2507000",
+  "matched": "16 QUEENSBERRY ST, BOSTON, MA, 02215",
+  "place": "Boston"
+ },
+ "A0152": {
+  "geoid": "0666000",
+  "matched": "1669 SUNSET CLIFFS BLVD, SAN DIEGO, CA, 92107",
+  "place": "San Diego"
+ },
+ "A0153": {
+  "geoid": "0644000",
+  "matched": "366 E 55TH ST, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0154": {
+  "geoid": "0666000",
+  "matched": "4568 IDAHO ST, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0155": {
+  "geoid": "2507000",
+  "matched": "473 HARVARD ST, DORCHESTER, MA, 02124",
+  "place": "Boston"
+ },
+ "A0156": {
+  "geoid": "0667000",
+  "matched": "290 GREEN ST, SAN FRANCISCO, CA, 94111",
+  "place": "San Francisco"
+ },
+ "A0157": {
+  "geoid": "0606000",
+  "matched": "2701 RIDGE RD, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0158": {
+  "geoid": "0606000",
+  "matched": "2522 HILGARD AVE, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0159": {
+  "geoid": "3451000",
+  "matched": "104 SUNSET AVE, NEWARK, NJ, 07106",
+  "place": "Newark"
+ },
+ "A0160": {
+  "geoid": "3436000",
+  "matched": "86 CHARLES ST, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0161": {
+  "geoid": "3436000",
+  "matched": "317 UNION ST, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0162": {
+  "geoid": "0644000",
+  "matched": "1640 N POINSETTIA PL, LOS ANGELES, CA, 90046",
+  "place": "Los Angeles"
+ },
+ "A0163": {
+  "geoid": "3436000",
+  "matched": "233 2ND ST, JERSEY CITY, NJ, 07302",
+  "place": "Jersey City"
+ },
+ "A0164": {
+  "geoid": "0667000",
+  "matched": "725 14TH ST, SAN FRANCISCO, CA, 94114",
+  "place": "San Francisco"
+ },
+ "A0165": {
+  "geoid": "0666000",
+  "matched": "734 JAMAICA CT, SAN DIEGO, CA, 92109",
+  "place": "San Diego"
+ },
+ "A0166": {
+  "geoid": "2511000",
+  "matched": "1 POTTER PARK, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0167": {
+  "geoid": "0666000",
+  "matched": "4616 FLORIDA ST, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0168": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0169": {
+  "geoid": "2507000",
+  "matched": "115 KILSYTH RD, BRIGHTON, MA, 02135",
+  "place": "Boston"
+ },
+ "A0170": {
+  "geoid": "0644000",
+  "matched": "8917 CEDROS AVE, PANORAMA CITY, CA, 91402",
+  "place": "Los Angeles"
+ },
+ "A0171": {
+  "geoid": "3436000",
+  "matched": "127 OGDEN AVE, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0172": {
+  "geoid": "0644000",
+  "matched": "8504 WILLIS AVE, PANORAMA CITY, CA, 91402",
+  "place": "Los Angeles"
+ },
+ "A0173": {
+  "geoid": "0644000",
+  "matched": "13180 FOOTHILL BLVD, SYLMAR, CA, 91342",
+  "place": "Los Angeles"
+ },
+ "A0174": {
+  "geoid": "2511000",
+  "matched": "84 HAMPSHIRE ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0175": {
+  "geoid": "2511000",
+  "matched": "10 DOVER ST, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0176": {
+  "geoid": "2511000",
+  "matched": "15 CHESTER ST, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0177": {
+  "geoid": "3436000",
+  "matched": "166 HIGHLAND AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0178": {
+  "geoid": "0644000",
+  "matched": "5308 RIVERTON AVE, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0179": {
+  "geoid": "0644000",
+  "matched": "7006 LANEWOOD AVE, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0180": {
+  "geoid": "0644000",
+  "matched": "845 S KINGSLEY DR, LOS ANGELES, CA, 90005",
+  "place": "Los Angeles"
+ },
+ "A0181": {
+  "geoid": "3432250",
+  "matched": "931 GARDEN ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0182": {
+  "geoid": "3432250",
+  "matched": "911 CLINTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0183": {
+  "geoid": "0606000",
+  "matched": "2427 HILGARD AVE, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0184": {
+  "geoid": "0644000",
+  "matched": "156 W 32ND ST, LOS ANGELES, CA, 90007",
+  "place": "Los Angeles"
+ },
+ "A0185": {
+  "geoid": "3436000",
+  "matched": "154 TERHUNE AVE, JERSEY CITY, NJ, 07305",
+  "place": "Jersey City"
+ },
+ "A0186": {
+  "geoid": "3436000",
+  "matched": "107 BEACON AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0187": {
+  "geoid": "3436000",
+  "matched": "146 CARLTON AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0188": {
+  "geoid": "0606000",
+  "matched": "2819 MCGEE AVE, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0189": {
+  "geoid": "0606000",
+  "matched": "1811 CARLETON ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0190": {
+  "geoid": "3451000",
+  "matched": "283 ADAMS ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0191": {
+  "geoid": "2511000",
+  "matched": "60 KIRKLAND ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0192": {
+  "geoid": "0667000",
+  "matched": "780 POST ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0193": {
+  "geoid": "0606000",
+  "matched": "1626 BONITA AVE, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0194": {
+  "geoid": "2507000",
+  "matched": "72 BURBANK ST, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0195": {
+  "geoid": "2507000",
+  "matched": "1850 COMMONWEALTH AVE, BRIGHTON, MA, 02135",
+  "place": "Boston"
+ },
+ "A0196": {
+  "geoid": "0644000",
+  "matched": "16915 BLACKHAWK ST, GRANADA HILLS, CA, 91344",
+  "place": "Los Angeles"
+ },
+ "A0197": {
+  "geoid": "0606000",
+  "matched": "1611 62ND ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0198": {
+  "geoid": "2507000",
+  "matched": "194 HAVRE ST, EAST BOSTON, MA, 02128",
+  "place": "Boston"
+ },
+ "A0199": {
+  "geoid": "2511000",
+  "matched": "42 BAY STATE RD, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0200": {
+  "geoid": "0644000",
+  "matched": "1853 N HIGHLAND AVE, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0201": {
+  "geoid": "0606000",
+  "matched": "2737 BENVENUE AVE, BERKELEY, CA, 94705",
+  "place": "Berkeley"
+ },
+ "A0202": {
+  "geoid": "0667000",
+  "matched": "1446 JACKSON ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0203": {
+  "geoid": "2507000",
+  "matched": "2986 WASHINGTON ST, ROXBURY, MA, 02119",
+  "place": "Boston"
+ },
+ "A0204": {
+  "geoid": "3451000",
+  "matched": "202 6TH AVE W, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0205": {
+  "geoid": "0606000",
+  "matched": "2425 GRANT ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0206": {
+  "geoid": "0667000",
+  "matched": "401 43RD AVE, SAN FRANCISCO, CA, 94121",
+  "place": "San Francisco"
+ },
+ "A0207": {
+  "geoid": "0644000",
+  "matched": "705 W 23RD ST, LOS ANGELES, CA, 90007",
+  "place": "Los Angeles"
+ },
+ "A0208": {
+  "geoid": "3432250",
+  "matched": "126 ADAMS ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0209": {
+  "geoid": "2511000",
+  "matched": "19 TROWBRIDGE ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0210": {
+  "geoid": "0644000",
+  "matched": "1432 N CURSON AVE, LOS ANGELES, CA, 90046",
+  "place": "Los Angeles"
+ },
+ "A0211": {
+  "geoid": "2507000",
+  "matched": "499 BEACON ST, BOSTON, MA, 02215",
+  "place": "Boston"
+ },
+ "A0212": {
+  "geoid": "0667000",
+  "matched": "1311 S VAN NESS AVE, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0213": {
+  "geoid": "0644000",
+  "matched": "11649 ACAMA ST, STUDIO CITY, CA, 91604",
+  "place": "Los Angeles"
+ },
+ "A0214": {
+  "geoid": "2511000",
+  "matched": "358 HARVARD ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0215": {
+  "geoid": "0667000",
+  "matched": "2295 CALIFORNIA ST, SAN FRANCISCO, CA, 94115",
+  "place": "San Francisco"
+ },
+ "A0216": {
+  "geoid": "0606000",
+  "matched": "2309 HASTE ST, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0217": {
+  "geoid": "2507000",
+  "matched": "170 MAVERICK ST, EAST BOSTON, MA, 02128",
+  "place": "Boston"
+ },
+ "A0218": {
+  "geoid": "2511000",
+  "matched": "15 RICHDALE AVE, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0219": {
+  "geoid": "0666000",
+  "matched": "3735 32ND ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0220": {
+  "geoid": "2507000",
+  "matched": "21 FAULKNER ST, DORCHESTER, MA, 02122",
+  "place": "Boston"
+ },
+ "A0221": {
+  "geoid": "2507000",
+  "matched": "191 PARK DR, BOSTON, MA, 02215",
+  "place": "Boston"
+ },
+ "A0222": {
+  "geoid": "0667000",
+  "matched": "1901 VALLEJO ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0223": {
+  "geoid": "3432250",
+  "matched": "504 COURT ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0224": {
+  "geoid": "0644000",
+  "matched": "8727 TOBIAS AVE, PANORAMA CITY, CA, 91402",
+  "place": "Los Angeles"
+ },
+ "A0225": {
+  "geoid": "0667000",
+  "matched": "1627 JACKSON ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0226": {
+  "geoid": "2507000",
+  "matched": "663 MASSACHUSETTS AVE, BOSTON, MA, 02118",
+  "place": "Boston"
+ },
+ "A0227": {
+  "geoid": "3432250",
+  "matched": "1401 HUDSON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0228": {
+  "geoid": "0667000",
+  "matched": "225 COLLINGWOOD ST, SAN FRANCISCO, CA, 94114",
+  "place": "San Francisco"
+ },
+ "A0229": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0230": {
+  "geoid": "2511000",
+  "matched": "85 HANCOCK ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0231": {
+  "geoid": "0667000",
+  "matched": "521 ARGUELLO BLVD, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0232": {
+  "geoid": "2511000",
+  "matched": "189 3RD ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0233": {
+  "geoid": "2507000",
+  "matched": "30 MEDFIELD ST, BOSTON, MA, 02215",
+  "place": "Boston"
+ },
+ "A0234": {
+  "geoid": "0606000",
+  "matched": "2212 BLAKE ST, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0235": {
+  "geoid": "0644000",
+  "matched": "6736 SELMA AVE, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0236": {
+  "geoid": "0667000",
+  "matched": "1110 JACKSON ST, SAN FRANCISCO, CA, 94133",
+  "place": "San Francisco"
+ },
+ "A0237": {
+  "geoid": "0667000",
+  "matched": "36 VALLEY ST, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0238": {
+  "geoid": "0644000",
+  "matched": "15256 ACRE ST, NORTH HILLS, CA, 91343",
+  "place": "Los Angeles"
+ },
+ "A0239": {
+  "geoid": "0606000",
+  "matched": "1476 UNIVERSITY AVE, BERKELEY, CA, 94702",
+  "place": "Berkeley"
+ },
+ "A0240": {
+  "geoid": "0666000",
+  "matched": "4135 38TH ST, SAN DIEGO, CA, 92105",
+  "place": "San Diego"
+ },
+ "A0241": {
+  "geoid": "3432250",
+  "matched": "913 GARDEN ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0242": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0243": {
+  "geoid": "3436000",
+  "matched": "664 OCEAN AVE, JERSEY CITY, NJ, 07305",
+  "place": "Jersey City"
+ },
+ "A0244": {
+  "geoid": "3432250",
+  "matched": "1126 HUDSON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0245": {
+  "geoid": "2507000",
+  "matched": "30 W HOWELL ST, DORCHESTER, MA, 02125",
+  "place": "Boston"
+ },
+ "A0246": {
+  "geoid": "0666000",
+  "matched": "4386 COPELAND AVE, SAN DIEGO, CA, 92105",
+  "place": "San Diego"
+ },
+ "A0247": {
+  "geoid": "0666000",
+  "matched": "4957 CAPE MAY AVE, SAN DIEGO, CA, 92107",
+  "place": "San Diego"
+ },
+ "A0248": {
+  "geoid": "0644000",
+  "matched": "941 S KENMORE AVE, LOS ANGELES, CA, 90006",
+  "place": "Los Angeles"
+ },
+ "A0249": {
+  "geoid": "3451000",
+  "matched": "498 HAWTHORNE AVE, NEWARK, NJ, 07112",
+  "place": "Newark"
+ },
+ "A0250": {
+  "geoid": "3436000",
+  "matched": "211 BALDWIN AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0251": {
+  "geoid": "0666000",
+  "matched": "4663 33RD ST, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0252": {
+  "geoid": "0644000",
+  "matched": "15514 CHASE ST, NORTH HILLS, CA, 91343",
+  "place": "Los Angeles"
+ },
+ "A0253": {
+  "geoid": "0667000",
+  "matched": "2250 N POINT ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0254": {
+  "geoid": "3432250",
+  "matched": "805 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0255": {
+  "geoid": "0644000",
+  "matched": "851 E 51ST ST, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0256": {
+  "geoid": "3432250",
+  "matched": "327 JACKSON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0257": {
+  "geoid": "0667000",
+  "matched": "5 COMMER CT, SAN FRANCISCO, CA, 94124",
+  "place": "San Francisco"
+ },
+ "A0258": {
+  "geoid": "2507000",
+  "matched": "471 COLUMBIA RD, DORCHESTER, MA, 02125",
+  "place": "Boston"
+ },
+ "A0259": {
+  "geoid": "0667000",
+  "matched": "872 N POINT ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0260": {
+  "geoid": "0606000",
+  "matched": "2479 LE CONTE AVE, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0261": {
+  "geoid": "3432250",
+  "matched": "525 ADAMS ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0262": {
+  "geoid": "0666000",
+  "matched": "2924 JUNIPER ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0263": {
+  "geoid": "0606000",
+  "matched": "1636 MARTIN LUTHER KING JR WAY, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0264": {
+  "geoid": "3451000",
+  "matched": "583 ELIZABETH AVE, NEWARK, NJ, 07112",
+  "place": "Newark"
+ },
+ "A0265": {
+  "geoid": "3436000",
+  "matched": "102 BALDWIN AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0266": {
+  "geoid": "3436000",
+  "matched": "52 BRIGHT ST, JERSEY CITY, NJ, 07302",
+  "place": "Jersey City"
+ },
+ "A0267": {
+  "geoid": "0644000",
+  "matched": "1314 N VAN NESS AVE, LOS ANGELES, CA, 90038",
+  "place": "Los Angeles"
+ },
+ "A0268": {
+  "geoid": "0667000",
+  "matched": "1848 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0269": {
+  "geoid": "3432250",
+  "matched": "1015 CLINTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0270": {
+  "geoid": "3436000",
+  "matched": "29 CONCORD ST, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0271": {
+  "geoid": "0667000",
+  "matched": "4115 LINCOLN WAY, SAN FRANCISCO, CA, 94122",
+  "place": "San Francisco"
+ },
+ "A0272": {
+  "geoid": "2511000",
+  "matched": "5 EVERETT ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0273": {
+  "geoid": "0666000",
+  "matched": "3911 CENTRE ST, SAN DIEGO, CA, 92103",
+  "place": "San Diego"
+ },
+ "A0274": {
+  "geoid": "0666000",
+  "matched": "7072 EASTMAN ST, SAN DIEGO, CA, 92111",
+  "place": "San Diego"
+ },
+ "A0275": {
+  "geoid": "0666000",
+  "matched": "4091 MORRELL ST, SAN DIEGO, CA, 92109",
+  "place": "San Diego"
+ },
+ "A0276": {
+  "geoid": "0666000",
+  "matched": "4361 ILLINOIS ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0277": {
+  "geoid": "0606000",
+  "matched": "2736 GRANT ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0278": {
+  "geoid": "0667000",
+  "matched": "1800 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0279": {
+  "geoid": "3436000",
+  "matched": "90 KENSINGTON AVE, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0280": {
+  "geoid": "0667000",
+  "matched": "1215 11TH AVE, SAN FRANCISCO, CA, 94122",
+  "place": "San Francisco"
+ },
+ "A0281": {
+  "geoid": "0644000",
+  "matched": "1725 N GOWER ST, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0282": {
+  "geoid": "0606000",
+  "matched": "2240 10TH ST, BERKELEY, CA, 94710",
+  "place": "Berkeley"
+ },
+ "A0283": {
+  "geoid": "0667000",
+  "matched": "90 BARTLETT ST, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0284": {
+  "geoid": "2511000",
+  "matched": "345 COLUMBIA ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0285": {
+  "geoid": "0644000",
+  "matched": "5255 HARMONY AVE, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0286": {
+  "geoid": "2511000",
+  "matched": "27 IRVING TER, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0287": {
+  "geoid": "3432250",
+  "matched": "404 GRAND ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0288": {
+  "geoid": "3436000",
+  "matched": "75 CLENDENNY AVE, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0289": {
+  "geoid": "0606000",
+  "matched": "1741 MARTIN LUTHER KING JR WAY, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0290": {
+  "geoid": "2511000",
+  "matched": "21 FOREST ST, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0291": {
+  "geoid": "2511000",
+  "matched": "165 CAMBRIDGEPARK DR, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0292": {
+  "geoid": "2511000",
+  "matched": "24 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0293": {
+  "geoid": "0667000",
+  "matched": "1314 NATOMA ST, SAN FRANCISCO, CA, 94103",
+  "place": "San Francisco"
+ },
+ "A0294": {
+  "geoid": "2511000",
+  "matched": "178 RICHDALE AVE, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0295": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0296": {
+  "geoid": "3451000",
+  "matched": "83 MCWHORTER ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0297": {
+  "geoid": "3451000",
+  "matched": "211 SUMMER AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0298": {
+  "geoid": "2511000",
+  "matched": "361 WASHINGTON ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0299": {
+  "geoid": "3432250",
+  "matched": "1037 WASHINGTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0300": {
+  "geoid": "2511000",
+  "matched": "36 TROWBRIDGE ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0301": {
+  "geoid": "2511000",
+  "matched": "165 HAMPSHIRE ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0302": {
+  "geoid": "2511000",
+  "matched": "4 CLINTON ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0303": {
+  "geoid": "0644000",
+  "matched": "188 E 35TH ST, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0304": {
+  "geoid": "0666000",
+  "matched": "4541 HAMILTON ST, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0305": {
+  "geoid": "0667000",
+  "matched": "638 45TH AVE, SAN FRANCISCO, CA, 94121",
+  "place": "San Francisco"
+ },
+ "A0306": {
+  "geoid": "2511000",
+  "matched": "335A HARVARD ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0307": {
+  "geoid": "3451000",
+  "matched": "294 VAN BUREN ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0308": {
+  "geoid": "3432250",
+  "matched": "1032 HUDSON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0309": {
+  "geoid": "0644000",
+  "matched": "1706 N STANLEY AVE, LOS ANGELES, CA, 90046",
+  "place": "Los Angeles"
+ },
+ "A0310": {
+  "geoid": "2507000",
+  "matched": "53 ASHFORD ST, ALLSTON, MA, 02134",
+  "place": "Boston"
+ },
+ "A0311": {
+  "geoid": "3451000",
+  "matched": "38 SOMME ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0312": {
+  "geoid": "2507000",
+  "matched": "25 ORLANDO ST, MATTAPAN, MA, 02126",
+  "place": "Boston"
+ },
+ "A0313": {
+  "geoid": "3451000",
+  "matched": "317 W RUNYON ST, NEWARK, NJ, 07108",
+  "place": "Newark"
+ },
+ "A0314": {
+  "geoid": "0644000",
+  "matched": "6640 LELAND WAY, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0315": {
+  "geoid": "0644000",
+  "matched": "5233 CARTWRIGHT AVE, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0316": {
+  "geoid": "0666000",
+  "matched": "3978 FLORIDA ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0317": {
+  "geoid": "0606000",
+  "matched": "2233 CHANNING WAY, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0318": {
+  "geoid": "0606000",
+  "matched": "2041 FRANCISCO ST, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0319": {
+  "geoid": "0606000",
+  "matched": "2315 GRANT ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0320": {
+  "geoid": "3432250",
+  "matched": "408 MADISON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0321": {
+  "geoid": "3436000",
+  "matched": "200 NUNDA AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0322": {
+  "geoid": "0666000",
+  "matched": "227 CYPRESS DR, SAN YSIDRO, CA, 92173",
+  "place": "San Diego"
+ },
+ "A0323": {
+  "geoid": "0644000",
+  "matched": "4627 COMPTON AVE, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0324": {
+  "geoid": "0667000",
+  "matched": "2003 FRANKLIN ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0325": {
+  "geoid": "3436000",
+  "matched": "38A GAUTIER AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0326": {
+  "geoid": "3451000",
+  "matched": "46 JEFFERSON ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0327": {
+  "geoid": "0644000",
+  "matched": "1605 N MARTEL AVE, LOS ANGELES, CA, 90046",
+  "place": "Los Angeles"
+ },
+ "A0328": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0329": {
+  "geoid": "3451000",
+  "matched": "51 MADISON ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0330": {
+  "geoid": "0644000",
+  "matched": "5229 WILLOWCREST AVE, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0331": {
+  "geoid": "3451000",
+  "matched": "342 IRVINE TURNER BLVD, NEWARK, NJ, 07108",
+  "place": "Newark"
+ },
+ "A0332": {
+  "geoid": "2507000",
+  "matched": "26 SONOMA ST, DORCHESTER, MA, 02121",
+  "place": "Boston"
+ },
+ "A0333": {
+  "geoid": "0666000",
+  "matched": "3752 33RD ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0334": {
+  "geoid": "0606000",
+  "matched": "2025 FRANCISCO ST, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0335": {
+  "geoid": "0667000",
+  "matched": "125 BEMIS ST, SAN FRANCISCO, CA, 94131",
+  "place": "San Francisco"
+ },
+ "A0336": {
+  "geoid": "2511000",
+  "matched": "151 N FIRST ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0337": {
+  "geoid": "3451000",
+  "matched": "66 MONROE ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0338": {
+  "geoid": "3451000",
+  "matched": "521 S 17TH ST, NEWARK, NJ, 07103",
+  "place": "Newark"
+ },
+ "A0339": {
+  "geoid": "2511000",
+  "matched": "124 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0340": {
+  "geoid": "0644000",
+  "matched": "14735 ROSCOE BLVD, PANORAMA CITY, CA, 91402",
+  "place": "Los Angeles"
+ },
+ "A0341": {
+  "geoid": "0666000",
+  "matched": "4225 50TH ST, SAN DIEGO, CA, 92115",
+  "place": "San Diego"
+ },
+ "A0342": {
+  "geoid": "2511000",
+  "matched": "49 ROSELAND ST, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0343": {
+  "geoid": "3451000",
+  "matched": "408 N 5TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0344": {
+  "geoid": null,
+  "matched": "242 GARFIELD AVE, JERSEY CITY, NJ, 07305",
+  "place": null,
+  "rejected": "different house number"
+ },
+ "A0345": {
+  "geoid": "0644000",
+  "matched": "153 W VERNON AVE, LOS ANGELES, CA, 90037",
+  "place": "Los Angeles"
+ },
+ "A0346": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0347": {
+  "geoid": "0666000",
+  "matched": "2142 2ND AVE, SAN DIEGO, CA, 92101",
+  "place": "San Diego"
+ },
+ "A0348": {
+  "geoid": "3432250",
+  "matched": "229 CLINTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0349": {
+  "geoid": "0606000",
+  "matched": "2400 DANA ST, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0350": {
+  "geoid": "3436000",
+  "matched": "1051 W SIDE AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0351": {
+  "geoid": "0667000",
+  "matched": "628 HYDE ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0352": {
+  "geoid": "3451000",
+  "matched": "40 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0353": {
+  "geoid": "0644000",
+  "matched": "1044 E JEFFERSON BLVD, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0354": {
+  "geoid": "2507000",
+  "matched": "73 LUBEC ST, EAST BOSTON, MA, 02128",
+  "place": "Boston"
+ },
+ "A0355": {
+  "geoid": "0644000",
+  "matched": "10701 AMESTOY AVE, GRANADA HILLS, CA, 91344",
+  "place": "Los Angeles"
+ },
+ "A0356": {
+  "geoid": "2507000",
+  "matched": "16 BRAINERD RD, ALLSTON, MA, 02134",
+  "place": "Boston"
+ },
+ "A0357": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0358": {
+  "geoid": "3451000",
+  "matched": "717 N 6TH ST, NEWARK, NJ, 07107",
+  "place": "Newark"
+ },
+ "A0359": {
+  "geoid": "3432250",
+  "matched": "925 PARK AVE, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0360": {
+  "geoid": "3436000",
+  "matched": "140 NEW YORK AVE, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0361": {
+  "geoid": "2511000",
+  "matched": "15 BERKSHIRE ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0362": {
+  "geoid": "2507000",
+  "matched": "368 RIVERWAY, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0363": {
+  "geoid": "0606000",
+  "matched": "2451 SHATTUCK AVE, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0364": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0365": {
+  "geoid": "0666000",
+  "matched": "3940 IDAHO ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0366": {
+  "geoid": "2507000",
+  "matched": "230 EVERETT ST, EAST BOSTON, MA, 02128",
+  "place": "Boston"
+ },
+ "A0367": {
+  "geoid": "0666000",
+  "matched": "219 S 35TH ST, SAN DIEGO, CA, 92113",
+  "place": "San Diego"
+ },
+ "A0368": {
+  "geoid": "0667000",
+  "matched": "1430 FRANCISCO ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0369": {
+  "geoid": "0606000",
+  "matched": "3260 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0370": {
+  "geoid": "0644000",
+  "matched": "2222 TOBERMAN ST, LOS ANGELES, CA, 90007",
+  "place": "Los Angeles"
+ },
+ "A0371": {
+  "geoid": "3451000",
+  "matched": "76 BRUEN ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0372": {
+  "geoid": "3436000",
+  "matched": "314 7TH ST, JERSEY CITY, NJ, 07302",
+  "place": "Jersey City"
+ },
+ "A0373": {
+  "geoid": "0606000",
+  "matched": "1315 SPRUCE ST, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0374": {
+  "geoid": "0644000",
+  "matched": "686 S ARDMORE AVE, LOS ANGELES, CA, 90005",
+  "place": "Los Angeles"
+ },
+ "A0375": {
+  "geoid": "0667000",
+  "matched": "1880 FULTON ST, SAN FRANCISCO, CA, 94117",
+  "place": "San Francisco"
+ },
+ "A0376": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0377": {
+  "geoid": "3432250",
+  "matched": "206 BLOOMFIELD ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0378": {
+  "geoid": "0666000",
+  "matched": "4053 IDAHO ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0379": {
+  "geoid": "0666000",
+  "matched": "1336 BRUNNER ST, SAN DIEGO, CA, 92110",
+  "place": "San Diego"
+ },
+ "A0380": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0381": {
+  "geoid": "3451000",
+  "matched": "521 MARKET ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0382": {
+  "geoid": "0667000",
+  "matched": "119 DAY ST, SAN FRANCISCO, CA, 94131",
+  "place": "San Francisco"
+ },
+ "A0383": {
+  "geoid": "0606000",
+  "matched": "1908 CALIFORNIA ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0384": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0385": {
+  "geoid": "0667000",
+  "matched": "1059 UNION ST, SAN FRANCISCO, CA, 94133",
+  "place": "San Francisco"
+ },
+ "A0386": {
+  "geoid": "0666000",
+  "matched": "3654 ARIZONA ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0387": {
+  "geoid": "0666000",
+  "matched": "10303 CMT ALVAREZ, SAN DIEGO, CA, 92126",
+  "place": "San Diego"
+ },
+ "A0388": {
+  "geoid": "3436000",
+  "matched": "157 CLERK ST, JERSEY CITY, NJ, 07305",
+  "place": "Jersey City"
+ },
+ "A0389": {
+  "geoid": "3432250",
+  "matched": "923 GARDEN ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0390": {
+  "geoid": "3451000",
+  "matched": "70 DARCY ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0391": {
+  "geoid": "0666000",
+  "matched": "265 22ND ST, SAN DIEGO, CA, 92102",
+  "place": "San Diego"
+ },
+ "A0392": {
+  "geoid": "0666000",
+  "matched": "4545 39TH ST, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0393": {
+  "geoid": "3436000",
+  "matched": "91 JORDAN AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0394": {
+  "geoid": "3436000",
+  "matched": "45 RAVINE AVE, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0395": {
+  "geoid": "0606000",
+  "matched": "1632 RUSSELL ST, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0396": {
+  "geoid": "0666000",
+  "matched": "3244 CLAIREMONT DR, SAN DIEGO, CA, 92117",
+  "place": "San Diego"
+ },
+ "A0397": {
+  "geoid": "0667000",
+  "matched": "1677 BUSH ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0398": {
+  "geoid": "0667000",
+  "matched": "890 GREEN ST, SAN FRANCISCO, CA, 94133",
+  "place": "San Francisco"
+ },
+ "A0399": {
+  "geoid": "3432250",
+  "matched": "227 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0400": {
+  "geoid": "3451000",
+  "matched": "174 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0401": {
+  "geoid": "0667000",
+  "matched": "257 14TH ST, SAN FRANCISCO, CA, 94103",
+  "place": "San Francisco"
+ },
+ "A0402": {
+  "geoid": "0667000",
+  "matched": "2914 LARKIN ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0403": {
+  "geoid": "2507000",
+  "matched": "45 MYRTLE ST, BOSTON, MA, 02114",
+  "place": "Boston"
+ },
+ "A0404": {
+  "geoid": "3436000",
+  "matched": "240 BOWERS ST, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0405": {
+  "geoid": "0644000",
+  "matched": "10214 FERNGLEN AVE, TUJUNGA, CA, 91042",
+  "place": "Los Angeles"
+ },
+ "A0406": {
+  "geoid": "2507000",
+  "matched": "170 W SPRINGFIELD ST, BOSTON, MA, 02118",
+  "place": "Boston"
+ },
+ "A0407": {
+  "geoid": "0644000",
+  "matched": "4188 GREENBUSH AVE, SHERMAN OAKS, CA, 91423",
+  "place": "Los Angeles"
+ },
+ "A0408": {
+  "geoid": "0644000",
+  "matched": "14375 POLK ST, SYLMAR, CA, 91342",
+  "place": "Los Angeles"
+ },
+ "A0409": {
+  "geoid": "0666000",
+  "matched": "4428 GRESHAM ST, SAN DIEGO, CA, 92109",
+  "place": "San Diego"
+ },
+ "A0410": {
+  "geoid": "3436000",
+  "matched": "319 SUMMIT AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0411": {
+  "geoid": "0606000",
+  "matched": "1833 BERKELEY WAY, BERKELEY, CA, 94703",
+  "place": "Berkeley"
+ },
+ "A0412": {
+  "geoid": "3451000",
+  "matched": "229 GRAFTON AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0413": {
+  "geoid": "0666000",
+  "matched": "2209 GRAND AVE, SAN DIEGO, CA, 92109",
+  "place": "San Diego"
+ },
+ "A0414": {
+  "geoid": "0667000",
+  "matched": "1987 CALIFORNIA ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0415": {
+  "geoid": "3436000",
+  "matched": "95 WAYNE ST, JERSEY CITY, NJ, 07302",
+  "place": "Jersey City"
+ },
+ "A0416": {
+  "geoid": "3436000",
+  "matched": "882 PAVONIA AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0417": {
+  "geoid": "0644000",
+  "matched": "4957 CAHUENGA BLVD, NORTH HOLLYWOOD, CA, 91601",
+  "place": "Los Angeles"
+ },
+ "A0418": {
+  "geoid": "3436000",
+  "matched": "221 SIP AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0419": {
+  "geoid": "0606000",
+  "matched": "1538 HENRY ST, BERKELEY, CA, 94709",
+  "place": "Berkeley"
+ },
+ "A0420": {
+  "geoid": "0666000",
+  "matched": "4419 CLEVELAND AVE, SAN DIEGO, CA, 92116",
+  "place": "San Diego"
+ },
+ "A0421": {
+  "geoid": "0644000",
+  "matched": "17106 CHATSWORTH ST, GRANADA HILLS, CA, 91344",
+  "place": "Los Angeles"
+ },
+ "A0422": {
+  "geoid": "2511000",
+  "matched": "21 MARION ST, CAMBRIDGE, MA, 02141",
+  "place": "Cambridge"
+ },
+ "A0423": {
+  "geoid": "2507000",
+  "matched": "10 CAMELOT CT, BRIGHTON, MA, 02135",
+  "place": "Boston"
+ },
+ "A0424": {
+  "geoid": "3432250",
+  "matched": "208 JEFFERSON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0425": {
+  "geoid": "0667000",
+  "matched": "650 POST ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0426": {
+  "geoid": "0666000",
+  "matched": "1307 COLUSA ST, SAN DIEGO, CA, 92110",
+  "place": "San Diego"
+ },
+ "A0427": {
+  "geoid": "0644000",
+  "matched": "7665 W FOUNTAIN AVE, LOS ANGELES, CA, 90046",
+  "place": "Los Angeles"
+ },
+ "A0428": {
+  "geoid": "3451000",
+  "matched": "312 MT PROSPECT AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0429": {
+  "geoid": "2507000",
+  "matched": "12 BLACKWOOD ST, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0430": {
+  "geoid": "0606000",
+  "matched": "1950 ADDISON ST, BERKELEY, CA, 94704",
+  "place": "Berkeley"
+ },
+ "A0431": {
+  "geoid": "0666000",
+  "matched": "245 EUCLID AVE, SAN DIEGO, CA, 92114",
+  "place": "San Diego"
+ },
+ "A0432": {
+  "geoid": "0644000",
+  "matched": "14605 RAYEN ST, PANORAMA CITY, CA, 91402",
+  "place": "Los Angeles"
+ },
+ "A0433": {
+  "geoid": "0644000",
+  "matched": "720 W 27TH ST, LOS ANGELES, CA, 90007",
+  "place": "Los Angeles"
+ },
+ "A0434": {
+  "geoid": "0667000",
+  "matched": "1225 HYDE ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0435": {
+  "geoid": "3432250",
+  "matched": "310 MONROE ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0436": {
+  "geoid": "3432250",
+  "matched": "832 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0437": {
+  "geoid": "0644000",
+  "matched": "2969 SAN MARINO ST, LOS ANGELES, CA, 90006",
+  "place": "Los Angeles"
+ },
+ "A0438": {
+  "geoid": "3436000",
+  "matched": "60 CAMBRIDGE AVE, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0439": {
+  "geoid": "0667000",
+  "matched": "225 25TH AVE, SAN FRANCISCO, CA, 94121",
+  "place": "San Francisco"
+ },
+ "A0440": {
+  "geoid": "0667000",
+  "matched": "4042 FULTON ST, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0441": {
+  "geoid": "0666000",
+  "matched": "4017 ILLINOIS ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0442": {
+  "geoid": "0644000",
+  "matched": "7014 LANEWOOD AVE, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0443": {
+  "geoid": "0666000",
+  "matched": "3526 FAIRMOUNT AVE, SAN DIEGO, CA, 92105",
+  "place": "San Diego"
+ },
+ "A0444": {
+  "geoid": "2507000",
+  "matched": "231 COMMONWEALTH AVE, BOSTON, MA, 02116",
+  "place": "Boston"
+ },
+ "A0445": {
+  "geoid": "0644000",
+  "matched": "8790 VAN NUYS BLVD, PANORAMA CITY, CA, 91402",
+  "place": "Los Angeles"
+ },
+ "A0446": {
+  "geoid": "2507000",
+  "matched": "610 COLUMBUS AVE, BOSTON, MA, 02118",
+  "place": "Boston"
+ },
+ "A0447": {
+  "geoid": "3432250",
+  "matched": "208 CLINTON ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0448": {
+  "geoid": "3451000",
+  "matched": "151 LAFAYETTE ST, NEWARK, NJ, 07105",
+  "place": "Newark"
+ },
+ "A0449": {
+  "geoid": "3451000",
+  "matched": "338 CLINTON PL, NEWARK, NJ, 07112",
+  "place": "Newark"
+ },
+ "A0450": {
+  "geoid": "3436000",
+  "matched": "94 NEPTUNE AVE, JERSEY CITY, NJ, 07305",
+  "place": "Jersey City"
+ },
+ "A0451": {
+  "geoid": "0644000",
+  "matched": "7300 VALMONT ST, TUJUNGA, CA, 91042",
+  "place": "Los Angeles"
+ },
+ "A0452": {
+  "geoid": "0644000",
+  "matched": "1310 N LAS PALMAS AVE, LOS ANGELES, CA, 90028",
+  "place": "Los Angeles"
+ },
+ "A0453": {
+  "geoid": "2511000",
+  "matched": "11 CARLISLE ST, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0454": {
+  "geoid": "0644000",
+  "matched": "8944 COLUMBUS AVE, NORTH HILLS, CA, 91343",
+  "place": "Los Angeles"
+ },
+ "A0455": {
+  "geoid": "3436000",
+  "matched": "78 STEVENS AVE, JERSEY CITY, NJ, 07305",
+  "place": "Jersey City"
+ },
+ "A0456": {
+  "geoid": "0666000",
+  "matched": "2151 CHATSWORTH BLVD, SAN DIEGO, CA, 92107",
+  "place": "San Diego"
+ },
+ "A0457": {
+  "geoid": "0667000",
+  "matched": "1856 GREEN ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0458": {
+  "geoid": "0644000",
+  "matched": "1670 E 48TH PL, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0459": {
+  "geoid": "3436000",
+  "matched": "202 SOUTH ST, JERSEY CITY, NJ, 07307",
+  "place": "Jersey City"
+ },
+ "A0460": {
+  "geoid": "3451000",
+  "matched": "223 SHEPHARD AVE, NEWARK, NJ, 07112",
+  "place": "Newark"
+ },
+ "A0461": {
+  "geoid": "0667000",
+  "matched": "735 11TH AVE, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0462": {
+  "geoid": "3436000",
+  "matched": "128 ST PAULS AVE, JERSEY CITY, NJ, 07306",
+  "place": "Jersey City"
+ },
+ "A0463": {
+  "geoid": "2507000",
+  "matched": "4 BEECHWOOD ST, DORCHESTER, MA, 02121",
+  "place": "Boston"
+ },
+ "A0464": {
+  "geoid": "2507000",
+  "matched": "2 DABNEY ST, ROXBURY, MA, 02119",
+  "place": "Boston"
+ },
+ "A0465": {
+  "geoid": "2511000",
+  "matched": "141 OXFORD ST, CAMBRIDGE, MA, 02140",
+  "place": "Cambridge"
+ },
+ "A0466": {
+  "geoid": "2507000",
+  "matched": "115 NORWAY ST, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0467": {
+  "geoid": "2507000",
+  "matched": "24 ST ALBANS RD, BOSTON, MA, 02115",
+  "place": "Boston"
+ },
+ "A0468": {
+  "geoid": "2511000",
+  "matched": "13 SHEPARD ST, CAMBRIDGE, MA, 02138",
+  "place": "Cambridge"
+ },
+ "A0469": {
+  "geoid": "0606000",
+  "matched": "2701 SHATTUCK AVE, BERKELEY, CA, 94705",
+  "place": "Berkeley"
+ },
+ "A0470": {
+  "geoid": "0606000",
+  "matched": "1919 CURTIS ST, BERKELEY, CA, 94702",
+  "place": "Berkeley"
+ },
+ "A0471": {
+  "geoid": "3432250",
+  "matched": "332 GARDEN ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0472": {
+  "geoid": "3432250",
+  "matched": "321 WILLOW AVE, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0473": {
+  "geoid": "2507000",
+  "matched": "20 PHILLIPS ST, BOSTON, MA, 02114",
+  "place": "Boston"
+ },
+ "A0474": {
+  "geoid": "0644000",
+  "matched": "3438 MCKINLEY AVE, LOS ANGELES, CA, 90011",
+  "place": "Los Angeles"
+ },
+ "A0475": {
+  "geoid": "3432250",
+  "matched": "361 1ST ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0476": {
+  "geoid": "3451000",
+  "matched": "26 COTTAGE ST, NEWARK, NJ, 07102",
+  "place": "Newark"
+ },
+ "A0477": {
+  "geoid": "0667000",
+  "matched": "2250 MISSION ST, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0478": {
+  "geoid": "0666000",
+  "matched": "3860 CHEROKEE AVE, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0479": {
+  "geoid": "0644000",
+  "matched": "12948 MOORPARK ST, STUDIO CITY, CA, 91604",
+  "place": "Los Angeles"
+ },
+ "A0480": {
+  "geoid": "0666000",
+  "matched": "4046 43RD ST, SAN DIEGO, CA, 92105",
+  "place": "San Diego"
+ },
+ "A0481": {
+  "geoid": "0667000",
+  "matched": "536 LEAVENWORTH ST, SAN FRANCISCO, CA, 94109",
+  "place": "San Francisco"
+ },
+ "A0482": {
+  "geoid": "3436000",
+  "matched": "101 CLIFTON PL, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0483": {
+  "geoid": "0667000",
+  "matched": "1580 MARKET ST, SAN FRANCISCO, CA, 94102",
+  "place": "San Francisco"
+ },
+ "A0484": {
+  "geoid": null,
+  "matched": null,
+  "place": null
+ },
+ "A0485": {
+  "geoid": "2511000",
+  "matched": "296 WESTERN AVE, CAMBRIDGE, MA, 02139",
+  "place": "Cambridge"
+ },
+ "A0486": {
+  "geoid": "0667000",
+  "matched": "2280 MISSION ST, SAN FRANCISCO, CA, 94110",
+  "place": "San Francisco"
+ },
+ "A0487": {
+  "geoid": "0667000",
+  "matched": "2118 FILLMORE ST, SAN FRANCISCO, CA, 94115",
+  "place": "San Francisco"
+ },
+ "A0488": {
+  "geoid": "2507000",
+  "matched": "197 BEACON ST, BOSTON, MA, 02116",
+  "place": "Boston"
+ },
+ "A0489": {
+  "geoid": "3432250",
+  "matched": "204 GRAND ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0490": {
+  "geoid": "3432250",
+  "matched": "526 ADAMS ST, HOBOKEN, NJ, 07030",
+  "place": "Hoboken"
+ },
+ "A0491": {
+  "geoid": "3451000",
+  "matched": "37 IRVING ST, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0492": {
+  "geoid": "0644000",
+  "matched": "800 S HARVARD BLVD, LOS ANGELES, CA, 90005",
+  "place": "Los Angeles"
+ },
+ "A0493": {
+  "geoid": "0667000",
+  "matched": "4450 GEARY BLVD, SAN FRANCISCO, CA, 94118",
+  "place": "San Francisco"
+ },
+ "A0494": {
+  "geoid": "0667000",
+  "matched": "2641 FRANKLIN ST, SAN FRANCISCO, CA, 94123",
+  "place": "San Francisco"
+ },
+ "A0495": {
+  "geoid": "3436000",
+  "matched": "230 VAN HORNE ST, JERSEY CITY, NJ, 07304",
+  "place": "Jersey City"
+ },
+ "A0496": {
+  "geoid": "0666000",
+  "matched": "512 32ND ST, SAN DIEGO, CA, 92102",
+  "place": "San Diego"
+ },
+ "A0497": {
+  "geoid": "0666000",
+  "matched": "3750 29TH ST, SAN DIEGO, CA, 92104",
+  "place": "San Diego"
+ },
+ "A0498": {
+  "geoid": "3451000",
+  "matched": "684 SUMMER AVE, NEWARK, NJ, 07104",
+  "place": "Newark"
+ },
+ "A0499": {
+  "geoid": "0644000",
+  "matched": "8519 WILLIS AVE, PANORAMA CITY, CA, 91402",
+  "place": "Los Angeles"
+ },
+ "A0500": {
+  "geoid": "0644000",
+  "matched": "8811 BURNET AVE, NORTH HILLS, CA, 91343",
+  "place": "Los Angeles"
+ }
+}

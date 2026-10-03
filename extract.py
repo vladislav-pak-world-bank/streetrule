@@ -172,6 +172,64 @@ def tag_dependencies(rules: list[dict]) -> None:
     print(f"tagged {len(todo)} rules, {len(rules) - len(todo)} from cache")
 
 
+COND_SYSTEM = """You turn one housing rule's coverage text into machine-checkable thresholds.
+Use only what the rule's text states. Leave a field null or false when the text does not state it. Never infer a number from outside knowledge.
+built_on_or_before: ISO date; the rule covers only buildings built (or certified for occupancy) on or before it. Example: 'certificate of occupancy on or before June 13, 1979' -> 1979-06-13.
+built_after: ISO date; the rule covers only buildings built after it.
+cutoff_uses_certificate: true when the cutoff refers to a certificate of occupancy or first occupancy rather than year built.
+exempt_if_newer_than_years: N when buildings first occupied within the last N years are exempt (a rolling exemption).
+min_units / max_units: covered only if the property has at least / at most this many units.
+exempt_owner_occupied_max_units: N when an owner-occupied building with N or fewer units is exempt.
+exempt_single_family_or_condo: true when single-family homes or condominiums are exempt (often with conditions).
+requires_public_funding: true when the rule covers only properties with public funding, subsidy, or income-restricted units.
+evidence: the words from the rule text that state these thresholds, or an empty string."""
+
+COND_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": [
+        "built_on_or_before", "built_after", "cutoff_uses_certificate", "exempt_if_newer_than_years",
+        "min_units", "max_units", "exempt_owner_occupied_max_units", "exempt_single_family_or_condo",
+        "requires_public_funding", "evidence",
+    ],
+    "properties": {
+        "built_on_or_before": {"type": ["string", "null"]},
+        "built_after": {"type": ["string", "null"]},
+        "cutoff_uses_certificate": {"type": "boolean"},
+        "exempt_if_newer_than_years": {"type": ["integer", "null"]},
+        "min_units": {"type": ["integer", "null"]},
+        "max_units": {"type": ["integer", "null"]},
+        "exempt_owner_occupied_max_units": {"type": ["integer", "null"]},
+        "exempt_single_family_or_condo": {"type": "boolean"},
+        "requires_public_funding": {"type": "boolean"},
+        "evidence": {"type": "string"},
+    },
+}
+
+
+def tag_conditions(rules: list[dict]) -> None:
+    path = CACHE / "conditions.json"
+    saved = json.loads(path.read_text()) if path.exists() else {}
+
+    def key(rule: dict) -> str:
+        return f"{rule['source_doc_id']}|{rule['quoted_span']}"
+
+    def tag(rule: dict) -> dict:
+        user = json.dumps({k: rule.get(k) for k in (
+            "jurisdiction", "category", "title", "requirement", "coverage_conditions", "exemptions", "quoted_span",
+        )})
+        return structured(COND_SYSTEM, user, COND_SCHEMA)
+
+    todo = [r for r in rules if key(r) not in saved]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for rule, cond in zip(todo, pool.map(tag, todo)):
+            saved[key(rule)] = cond
+    path.write_text(json.dumps(saved, indent=2))
+    for rule in rules:
+        rule["conditions"] = saved[key(rule)]
+    print(f"thresholds for {len(todo)} rules, {len(rules) - len(todo)} from cache")
+
+
 def apply_corrections(rules: list[dict]) -> None:
     """Apply reviewed fixes from review/corrections.json; each one records why."""
     path = ROOT / "review" / "corrections.json"
@@ -184,8 +242,39 @@ def apply_corrections(rules: list[dict]) -> None:
             if fix.get("title_contains") and fix["title_contains"].lower() not in rule.get("title", "").lower():
                 continue
             rule.update(fix["set"])
+            if fix.get("conditions"):
+                rule["conditions"] = {**rule.get("conditions", {}), **fix["conditions"],
+                                      "evidence": fix["evidence_quote"], "evidence_doc_id": fix["evidence_doc_id"]}
             rule["interaction"] = f"Reviewed: {fix['reason']}"
             print(f"corrected {rule['team_rule_id']} from {fix['source_doc_id']}")
+
+
+def sanitize_conditions(rules: list[dict]) -> None:
+    """Drop a 'built after' cutoff that contradicts the 'built on or before' cutoff; the model sometimes merges the
+    fully covered and partially covered tiers of one ordinance into a single rule."""
+    for rule in rules:
+        cond = rule.get("conditions") or {}
+        before, after = cond.get("built_on_or_before"), cond.get("built_after")
+        if before and after and after >= before:
+            cond["built_after"] = None
+
+
+def inherit_city_cutoffs(rules: list[dict]) -> None:
+    """A city's rent-increase pages often say 'covered units' and define coverage once. Copy the year cutoff
+    from the rule that states it to the other rent-increase rules of the same city, and record where it came from."""
+    for rule in rules:
+        if rule["level"] != "city" or rule["category"] != "rent_increase_limits":
+            continue
+        cond = rule.setdefault("conditions", {})
+        if cond.get("built_on_or_before"):
+            continue
+        donor = next((r for r in rules if r is not rule and r["jurisdiction"] == rule["jurisdiction"]
+                      and r["category"] == "rent_increase_limits" and (r.get("conditions") or {}).get("built_on_or_before")), None)
+        if not donor:
+            continue
+        for field in ("built_on_or_before", "cutoff_uses_certificate"):
+            cond[field] = donor["conditions"].get(field)
+        cond["inherited_from"] = donor["team_rule_id"]
 
 
 def main() -> None:
@@ -231,7 +320,10 @@ def main() -> None:
     for i, rule in enumerate(kept, start=1):
         rule["team_rule_id"] = f"r-{i:04d}"
     tag_dependencies(kept)
+    tag_conditions(kept)
+    sanitize_conditions(kept)
     apply_corrections(kept)
+    inherit_city_cutoffs(kept)
     out = ROOT / "output" / "rules.json"
     out.write_text(json.dumps(kept, indent=2))
     print(f"wrote {len(kept)} rules to {out}")

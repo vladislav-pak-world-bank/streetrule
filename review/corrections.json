@@ -30,5 +30,17 @@
       "conflict_note": "The statute states $30, adjusted each year with the Consumer Price Index since 1998. Berkeley's Rent Board states the 2026 maximum is $68.96. Both figures are in the corpus; neither page is a single official statewide 2026 amount."
     },
     "reason": "Surfaces the screening-fee cap conflict the brief lists as a known open question."
+  },
+  {
+    "source_doc_id": "D080",
+    "category": "rent_increase_limits",
+    "set": {},
+    "conditions": {
+      "built_on_or_before": "1979-06-13",
+      "cutoff_uses_certificate": true
+    },
+    "evidence_doc_id": "D079",
+    "evidence_quote": "rental units that first obtained a Certificate of Occupancy after June 13, 1979",
+    "reason": "The San Francisco rent-increase page only says 'rent-controlled units'. The Rent Board's eviction page states the cutoff: units first certified after June 13, 1979 are exempt from the increase limits."
   }
 ]

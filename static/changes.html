@@ -3,22 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>StreetRule — change tests</title>
+  <title>StreetRule · Change tests</title>
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-  <header class="bar">
-    <div>
-      <strong>StreetRule</strong>
-      <span class="tag">What changes when the law or the date changes.</span>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="/">Street<b>Rule</b></a>
+      <nav>
+        <a href="/">Lookup</a>
+        <a href="/changes" class="on">Change tests</a>
+        <a href="/method">Method</a>
+        <a href="https://github.com/vladislav-pak-world-bank/streetrule">GitHub</a>
+      </nav>
     </div>
-    <nav>
-      <a href="/">Lookup</a>
-      <a href="/changes">Change tests</a>
-    </nav>
   </header>
-  <p class="notice">Not legal advice. These five checks are the change tests in the challenge. Each line is a real lookup, not a hand-written result.</p>
-  <main id="tests"></main>
+  <div class="page-head">
+    <div class="wrap">
+      <h1>When the law or the date changes</h1>
+      <p>The challenge's five change tests. Each line below is computed live by the same engine as the address page, on a real sample address, not written by hand. The affected sets are in <code>output/changes.json</code>. Not legal advice.</p>
+    </div>
+  </div>
+  <main class="wrap" id="tests"></main>
+  <footer>
+    <div class="wrap">
+      <span>StreetRule · Not legal advice.</span>
+      <span>Built at Hack-Nation 7, New York hub.</span>
+    </div>
+  </footer>
   <script src="/static/changes.js"></script>
 </body>
 </html>

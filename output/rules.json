@@ -20,7 +20,19 @@
     "overrides": [],
     "interaction": "Reviewed: Ordinance No. 7,992-N.S. was adopted by the Berkeley City Council, so it is enacted law, not a pending bill. The model read 'passed to print' as not yet passed.",
     "team_rule_id": "r-0001",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -47,7 +59,19 @@
       "unit_count",
       "owner_occupied",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 3,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "certain owner-occupied properties with 1\u20133 units"
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -70,7 +94,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0003",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -93,7 +129,19 @@
     "overrides": [],
     "interaction": "Reviewed: The verified quote left out the dollar amount, which sits on the next line of the same page. The brief names this cap as an open question.",
     "team_rule_id": "r-0004",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -116,7 +164,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0005",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -139,7 +199,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0006",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -162,7 +234,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0007",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -191,7 +275,20 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1979-12-31",
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0024"
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -220,7 +317,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -243,7 +352,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0010",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -270,7 +391,19 @@
       "unit_count",
       "owner_occupied",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -293,7 +426,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0012",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -316,7 +461,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0013",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -341,7 +498,19 @@
     "team_rule_id": "r-0014",
     "depends_on": [
       "unit_count"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -364,7 +533,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0015",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -387,7 +568,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0016",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -410,7 +603,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0017",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -433,7 +638,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0018",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "Cleaning to return the unit to its starting level of cleanliness applies to tenancies beginning after January 1, 2003."
+    }
   },
   {
     "jurisdiction": "CA",
@@ -456,7 +673,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0019",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -479,7 +708,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0020",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -502,7 +743,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0021",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -531,7 +784,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -557,7 +822,20 @@
     "depends_on": [
       "year_built",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1979-12-31",
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0008"
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -585,7 +863,19 @@
       "unit_count",
       "owner_occupied",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1979-12-31",
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": true,
+      "requires_public_funding": false,
+      "evidence": "\u201cMost units in multifamily properties built before 1980\u201d; \u201cnew construction built and receiving a Certificate of Occupancy after June 1980\u201d; \u201cqualifying later-starting single-family tenancies, and most condominiums\u201d"
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -614,7 +904,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "\u201cmost units in multifamily properties built before 1980\u201d; \u201cNew construction: units that were built and received a Certificate of Occupancy after June 1980\u201d"
+    }
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -643,7 +945,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1979-12-31",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "Fully covered examples include most units in multifamily properties built before 1980."
+    }
   },
   {
     "jurisdiction": "Boston, MA",
@@ -668,7 +982,19 @@
     "team_rule_id": "r-0027",
     "depends_on": [
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": true,
+      "evidence": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or with income-restricted units created under the BPDA Inclusionary Development Policy."
+    }
   },
   {
     "jurisdiction": "Boston, MA",
@@ -693,7 +1019,19 @@
     "team_rule_id": "r-0028",
     "depends_on": [
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": true,
+      "evidence": "housing providers receiving DND funding and/or land, or with income-restricted units created under the BPDA Inclusionary Development Policy"
+    }
   },
   {
     "jurisdiction": "Boston, MA",
@@ -716,7 +1054,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0029",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Boston, MA",
@@ -739,7 +1089,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0030",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -762,7 +1124,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0031",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -785,7 +1159,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0032",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -808,7 +1194,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0033",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -831,7 +1229,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0034",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -854,7 +1264,19 @@
     "overrides": [],
     "interaction": "Effective date from Cal. Const. art. IV, sec. 8(c): statutes chaptered without an urgency clause take effect January 1 of the next year.",
     "team_rule_id": "r-0035",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -882,7 +1304,19 @@
       "unit_count",
       "owner_occupied",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": 15,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "housing issued a certificate of occupancy within the previous 15 years (except mobilehomes)"
+    }
   },
   {
     "jurisdiction": "CA",
@@ -911,7 +1345,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -940,7 +1386,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": 15,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 2,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "housing issued a certificate of occupancy within the previous 15 years, except mobilehomes; and qualifying owner-occupied properties containing two dwelling units."
+    }
   },
   {
     "jurisdiction": "CA",
@@ -965,7 +1423,19 @@
     "team_rule_id": "r-0039",
     "depends_on": [
       "unit_count"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -988,7 +1458,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0040",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1011,7 +1493,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0041",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1034,7 +1528,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0042",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1057,7 +1563,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0043",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1080,7 +1598,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0044",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1103,7 +1633,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0045",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1126,7 +1668,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0046",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1149,7 +1703,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0047",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1172,7 +1738,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0048",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1195,7 +1773,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0049",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1218,7 +1808,19 @@
     "overrides": [],
     "interaction": "Reviewed: Surfaces the screening-fee cap conflict the brief lists as a known open question.",
     "team_rule_id": "r-0050",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1241,7 +1843,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0051",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1264,7 +1878,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0052",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1287,7 +1913,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0053",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": true,
+      "evidence": "When there is a government rent subsidy."
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1310,7 +1948,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0054",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": true,
+      "evidence": "When there is a government rent subsidy"
+    }
   },
   {
     "jurisdiction": "Cambridge, MA",
@@ -1336,7 +1986,19 @@
     "depends_on": [
       "unit_count",
       "owner_occupied"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 2,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "exemption for 2-family dwellings when the owner lives there"
+    }
   },
   {
     "jurisdiction": "Jersey City, NJ",
@@ -1361,7 +2023,19 @@
     "team_rule_id": "r-0056",
     "depends_on": [
       "unit_count"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": 5,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "All 1-4 Unit Properties are exempt from rent control"
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1388,7 +2062,19 @@
       "year_built",
       "owner_occupied",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1415,7 +2101,19 @@
       "year_built",
       "owner_occupied",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR)."
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1440,7 +2138,19 @@
     "team_rule_id": "r-0059",
     "depends_on": [
       "year_built"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1978-10-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "generally applies to covered rental properties first built on or before October 1, 1978, and certain replacement units"
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1467,7 +2177,20 @@
       "year_built",
       "unit_count",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1978-10-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0059"
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1495,7 +2218,20 @@
       "unit_count",
       "owner_occupied",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1978-10-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0059"
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1522,7 +2258,20 @@
       "year_built",
       "unit_count",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1978-10-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0059"
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1549,7 +2298,20 @@
       "year_built",
       "unit_count",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1978-10-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0059"
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1577,7 +2339,19 @@
       "unit_count",
       "owner_occupied",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1604,7 +2378,20 @@
       "year_built",
       "unit_count",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1978-10-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0059"
+    }
   },
   {
     "jurisdiction": "CA",
@@ -1627,7 +2414,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0066",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1654,7 +2453,20 @@
       "year_built",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1978-10-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0059"
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1683,7 +2495,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1711,7 +2535,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1734,7 +2570,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0070",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1757,7 +2605,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0071",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1780,7 +2640,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0072",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1805,7 +2677,19 @@
     "team_rule_id": "r-0073",
     "depends_on": [
       "unit_count"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "The regulation may not apply to a rental unit owned by a person or entity owning fewer than ten rental units or to a unit with a fair market rent exceeding $400."
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1828,7 +2712,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0074",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1855,7 +2751,19 @@
       "unit_count",
       "owner_occupied",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 2,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "\u201cleasing one unit in a two-family dwelling where the owner occupies the other unit\u201d"
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1878,7 +2786,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0076",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1901,7 +2821,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0077",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1924,7 +2856,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0078",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1947,7 +2891,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0079",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1970,7 +2926,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0080",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -1993,7 +2961,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0081",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "MA",
@@ -2016,7 +2996,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0082",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2042,7 +3034,19 @@
     "depends_on": [
       "unit_count",
       "owner_occupied"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 4,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "A rental dwelling unit in an owner-occupied premises of not more than four dwelling units is excluded from the Act\u2019s definition of rental dwelling unit."
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2068,7 +3072,19 @@
     "depends_on": [
       "unit_count",
       "owner_occupied"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2091,7 +3107,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0085",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2116,7 +3144,19 @@
     "team_rule_id": "r-0086",
     "depends_on": [
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2139,7 +3179,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0087",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2162,7 +3214,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0088",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2187,7 +3251,19 @@
     "team_rule_id": "r-0089",
     "depends_on": [
       "unit_count"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": true,
+      "requires_public_funding": false,
+      "evidence": "Does not apply to a dwelling unit in a one-family or two-family dwelling offered for rent"
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2210,7 +3286,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0090",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2233,7 +3321,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0091",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2256,7 +3356,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0092",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2279,7 +3391,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0093",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2305,7 +3429,19 @@
     "depends_on": [
       "unit_count",
       "owner_occupied"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 3,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "The exception is an owner-occupied two-, or three-family dwelling."
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2330,7 +3466,19 @@
     "team_rule_id": "r-0095",
     "depends_on": [
       "unit_count"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "Deposits for ten or fewer units must be placed in an insured, interest-bearing account at a New Jersey bank or savings and loan association. For ten or more units, the landlord may use the described money market fund or bank account options."
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2353,7 +3501,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0096",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2376,7 +3536,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0097",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2399,7 +3571,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0098",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2426,7 +3610,19 @@
       "year_built",
       "unit_count",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": 30,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "Newly constructed multiple dwellings are exempt from local rent-control ordinances for 30 years after completion. Government-subsidized rents may also be exempt."
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2449,7 +3645,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0100",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2476,7 +3684,19 @@
       "unit_count",
       "owner_occupied",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 2,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "Two-family owner-occupied dwellings; rooms in an owner- or resident-occupied single home"
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2502,7 +3722,19 @@
     "depends_on": [
       "unit_count",
       "owner_occupied"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": 2,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "certain owner-occupied one- and two-family dwellings"
+    }
   },
   {
     "jurisdiction": "NJ",
@@ -2527,7 +3759,19 @@
     "team_rule_id": "r-0103",
     "depends_on": [
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2556,7 +3800,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2579,7 +3835,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0105",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2602,7 +3870,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0106",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2631,7 +3911,19 @@
       "owner_occupied",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2654,7 +3946,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0108",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2677,7 +3981,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0109",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2702,7 +4018,19 @@
     "team_rule_id": "r-0110",
     "depends_on": [
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2725,7 +4053,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0111",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2746,12 +4086,25 @@
     "source_doc_id": "D080",
     "source_url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
     "overrides": [],
-    "interaction": null,
+    "interaction": "Reviewed: The San Francisco rent-increase page only says 'rent-controlled units'. The Rent Board's eviction page states the cutoff: units first certified after June 13, 1979 are exempt from the increase limits.",
     "team_rule_id": "r-0112",
     "depends_on": [
       "year_built",
       "single_family_or_condo"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1979-06-13",
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "rental units that first obtained a Certificate of Occupancy after June 13, 1979",
+      "evidence_doc_id": "D079"
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2774,7 +4127,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0113",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2797,7 +4162,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0114",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2820,7 +4197,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0115",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2848,7 +4237,20 @@
       "unit_count",
       "single_family_or_condo",
       "public_funding"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1979-06-13",
+      "built_after": null,
+      "cutoff_uses_certificate": true,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0112"
+    }
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2871,7 +4273,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0117",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2894,7 +4308,20 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0118",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": "1995-02-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "",
+      "inherited_from": "r-0120"
+    }
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2917,7 +4344,19 @@
     "overrides": [],
     "interaction": null,
     "team_rule_id": "r-0119",
-    "depends_on": []
+    "depends_on": [],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": ""
+    }
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2942,7 +4381,19 @@
     "team_rule_id": "r-0120",
     "depends_on": [
       "year_built"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": "1995-02-01",
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": null,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "Residential buildings constructed after February 1, 1995, and mobile home spaces offered for rent after January 1, 1990."
+    }
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2967,6 +4418,18 @@
     "team_rule_id": "r-0121",
     "depends_on": [
       "year_built"
-    ]
+    ],
+    "conditions": {
+      "built_on_or_before": null,
+      "built_after": null,
+      "cutoff_uses_certificate": false,
+      "exempt_if_newer_than_years": 15,
+      "min_units": null,
+      "max_units": null,
+      "exempt_owner_occupied_max_units": null,
+      "exempt_single_family_or_condo": false,
+      "requires_public_funding": false,
+      "evidence": "housing produced in the last 15 years"
+    }
   }
 ]

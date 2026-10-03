@@ -6,3 +6,4 @@ output/cache/
 .DS_Store
 .vercel
 output/extract.log
+.env*

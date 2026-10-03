@@ -3,6 +3,7 @@
 import csv
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -135,6 +136,42 @@ def quote_in_source(quote: str, source: str) -> str | None:
     return folded
 
 
+FACTS = ["year_built", "unit_count", "owner_occupied", "single_family_or_condo", "public_funding"]
+
+TAG_SYSTEM = """You decide which property facts determine whether one housing rule covers a given rental address.
+Choose only from: year_built, unit_count, owner_occupied, single_family_or_condo, public_funding.
+Pick a fact only if the rule's coverage or an exemption turns on it. Ignore facts about the tenant, such as income, children, or vouchers.
+A rule that covers every rental in its jurisdiction depends on nothing: return an empty list."""
+
+TAG_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["depends_on"],
+    "properties": {"depends_on": {"type": "array", "items": {"type": "string", "enum": FACTS}}},
+}
+
+
+def tag_dependencies(rules: list[dict]) -> None:
+    path = CACHE / "depends_on.json"
+    saved = json.loads(path.read_text()) if path.exists() else {}
+
+    def key(rule: dict) -> str:
+        return f"{rule['source_doc_id']}|{rule['quoted_span']}"
+
+    def tag(rule: dict) -> list[str]:
+        user = json.dumps({k: rule.get(k) for k in ("jurisdiction", "category", "title", "requirement", "coverage_conditions", "exemptions")})
+        return structured(TAG_SYSTEM, user, TAG_SCHEMA)["depends_on"]
+
+    todo = [r for r in rules if key(r) not in saved]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for rule, facts in zip(todo, pool.map(tag, todo)):
+            saved[key(rule)] = facts
+    path.write_text(json.dumps(saved, indent=2))
+    for rule in rules:
+        rule["depends_on"] = saved[key(rule)]
+    print(f"tagged {len(todo)} rules, {len(rules) - len(todo)} from cache")
+
+
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
     rows = list(csv.DictReader((ROOT / "corpus" / "corpus_manifest.csv").open()))
@@ -177,6 +214,7 @@ def main() -> None:
 
     for i, rule in enumerate(kept, start=1):
         rule["team_rule_id"] = f"r-{i:04d}"
+    tag_dependencies(kept)
     out = ROOT / "output" / "rules.json"
     out.write_text(json.dumps(kept, indent=2))
     print(f"wrote {len(kept)} rules to {out}")

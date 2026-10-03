@@ -19,7 +19,8 @@
     "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0001"
+    "team_rule_id": "r-0001",
+    "depends_on": []
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -41,7 +42,12 @@
     "source_url": "https://rentboard.berkeleyca.gov/Fair_Chance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0002"
+    "team_rule_id": "r-0002",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -63,7 +69,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/elected-rent-board/news/2026-adjustments-relocation-assistance-payments",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0003"
+    "team_rule_id": "r-0003",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -85,7 +92,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0004"
+    "team_rule_id": "r-0004",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -107,7 +115,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0005"
+    "team_rule_id": "r-0005",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -129,7 +138,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0006"
+    "team_rule_id": "r-0006",
+    "depends_on": []
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -151,7 +161,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0007"
+    "team_rule_id": "r-0007",
+    "depends_on": []
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -173,7 +184,14 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0008"
+    "team_rule_id": "r-0008",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -195,7 +213,14 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0009"
+    "team_rule_id": "r-0009",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -217,7 +242,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0010"
+    "team_rule_id": "r-0010",
+    "depends_on": []
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -239,7 +265,12 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0011"
+    "team_rule_id": "r-0011",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -261,7 +292,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0012"
+    "team_rule_id": "r-0012",
+    "depends_on": []
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -283,7 +315,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0013"
+    "team_rule_id": "r-0013",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -305,7 +338,10 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0014"
+    "team_rule_id": "r-0014",
+    "depends_on": [
+      "unit_count"
+    ]
   },
   {
     "jurisdiction": "CA",
@@ -327,7 +363,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0015"
+    "team_rule_id": "r-0015",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -349,7 +386,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0016"
+    "team_rule_id": "r-0016",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -371,7 +409,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0017"
+    "team_rule_id": "r-0017",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -393,7 +432,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0018"
+    "team_rule_id": "r-0018",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -415,7 +455,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0019"
+    "team_rule_id": "r-0019",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -437,7 +478,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0020"
+    "team_rule_id": "r-0020",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -459,7 +501,8 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0021"
+    "team_rule_id": "r-0021",
+    "depends_on": []
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -481,7 +524,14 @@
     "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0022"
+    "team_rule_id": "r-0022",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -503,7 +553,11 @@
     "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/AGA%20Public%20Notice.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0023"
+    "team_rule_id": "r-0023",
+    "depends_on": [
+      "year_built",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -525,7 +579,13 @@
     "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0024"
+    "team_rule_id": "r-0024",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -547,7 +607,14 @@
     "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0025"
+    "team_rule_id": "r-0025",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Berkeley, CA",
@@ -569,7 +636,14 @@
     "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0026"
+    "team_rule_id": "r-0026",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Boston, MA",
@@ -591,7 +665,10 @@
     "source_url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0027"
+    "team_rule_id": "r-0027",
+    "depends_on": [
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Boston, MA",
@@ -613,7 +690,10 @@
     "source_url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0028"
+    "team_rule_id": "r-0028",
+    "depends_on": [
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Boston, MA",
@@ -635,7 +715,8 @@
     "source_url": "https://malegislature.gov/Bills/193/H3744",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0029"
+    "team_rule_id": "r-0029",
+    "depends_on": []
   },
   {
     "jurisdiction": "Boston, MA",
@@ -657,7 +738,8 @@
     "source_url": "https://malegislature.gov/Bills/193/H3744",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0030"
+    "team_rule_id": "r-0030",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -679,7 +761,8 @@
     "source_url": "https://calcivilrights.ca.gov/housing/",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0031"
+    "team_rule_id": "r-0031",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -701,7 +784,8 @@
     "source_url": "https://calcivilrights.ca.gov/housing/",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0032"
+    "team_rule_id": "r-0032",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -723,7 +807,8 @@
     "source_url": "https://calcivilrights.ca.gov/housing/",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0033"
+    "team_rule_id": "r-0033",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -745,7 +830,8 @@
     "source_url": "https://calcivilrights.ca.gov/housing/",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0034"
+    "team_rule_id": "r-0034",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -767,7 +853,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
     "overrides": [],
     "interaction": "Effective date from Cal. Const. art. IV, sec. 8(c): statutes chaptered without an urgency clause take effect January 1 of the next year.",
-    "team_rule_id": "r-0035"
+    "team_rule_id": "r-0035",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -789,7 +876,13 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0036"
+    "team_rule_id": "r-0036",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "CA",
@@ -811,7 +904,14 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0037"
+    "team_rule_id": "r-0037",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "CA",
@@ -833,7 +933,14 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0038"
+    "team_rule_id": "r-0038",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "CA",
@@ -855,7 +962,10 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0039"
+    "team_rule_id": "r-0039",
+    "depends_on": [
+      "unit_count"
+    ]
   },
   {
     "jurisdiction": "CA",
@@ -877,7 +987,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0040"
+    "team_rule_id": "r-0040",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -899,7 +1010,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0041"
+    "team_rule_id": "r-0041",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -921,7 +1033,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0042"
+    "team_rule_id": "r-0042",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -943,7 +1056,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0043"
+    "team_rule_id": "r-0043",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -965,7 +1079,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0044"
+    "team_rule_id": "r-0044",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -987,7 +1102,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0045"
+    "team_rule_id": "r-0045",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1009,7 +1125,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0046"
+    "team_rule_id": "r-0046",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1031,7 +1148,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0047"
+    "team_rule_id": "r-0047",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1053,7 +1171,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0048"
+    "team_rule_id": "r-0048",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1075,7 +1194,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0049"
+    "team_rule_id": "r-0049",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1097,7 +1217,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0050"
+    "team_rule_id": "r-0050",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1119,7 +1240,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0051"
+    "team_rule_id": "r-0051",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1141,7 +1263,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0052"
+    "team_rule_id": "r-0052",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1163,7 +1286,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0053"
+    "team_rule_id": "r-0053",
+    "depends_on": []
   },
   {
     "jurisdiction": "CA",
@@ -1185,7 +1309,8 @@
     "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0054"
+    "team_rule_id": "r-0054",
+    "depends_on": []
   },
   {
     "jurisdiction": "Cambridge, MA",
@@ -1207,7 +1332,11 @@
     "source_url": "https://www.cambridgema.gov/departments/humanrightscommission",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0055"
+    "team_rule_id": "r-0055",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied"
+    ]
   },
   {
     "jurisdiction": "Jersey City, NJ",
@@ -1229,7 +1358,10 @@
     "source_url": "https://www.jerseycitynj.gov/landlordtenant",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0056"
+    "team_rule_id": "r-0056",
+    "depends_on": [
+      "unit_count"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1251,7 +1383,12 @@
     "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0057"
+    "team_rule_id": "r-0057",
+    "depends_on": [
+      "year_built",
+      "owner_occupied",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1273,7 +1410,12 @@
     "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0058"
+    "team_rule_id": "r-0058",
+    "depends_on": [
+      "year_built",
+      "owner_occupied",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1295,7 +1437,10 @@
     "source_url": "https://housing.lacity.gov/residents/rso-overview",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0059"
+    "team_rule_id": "r-0059",
+    "depends_on": [
+      "year_built"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1317,7 +1462,12 @@
     "source_url": "https://housing.lacity.gov/residents/rso-overview",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0060"
+    "team_rule_id": "r-0060",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1339,7 +1489,13 @@
     "source_url": "https://housing.lacity.gov/residents/rso-overview",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0061"
+    "team_rule_id": "r-0061",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1361,7 +1517,12 @@
     "source_url": "https://housing.lacity.gov/residents/rso-overview",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0062"
+    "team_rule_id": "r-0062",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1383,7 +1544,12 @@
     "source_url": "https://housing.lacity.gov/residents/rso-overview",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0063"
+    "team_rule_id": "r-0063",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1405,7 +1571,13 @@
     "source_url": "https://housing.lacity.gov/residents/rso-overview",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0064"
+    "team_rule_id": "r-0064",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1427,7 +1599,12 @@
     "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0065"
+    "team_rule_id": "r-0065",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "CA",
@@ -1449,7 +1626,8 @@
     "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0066"
+    "team_rule_id": "r-0066",
+    "depends_on": []
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1471,7 +1649,12 @@
     "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0067"
+    "team_rule_id": "r-0067",
+    "depends_on": [
+      "year_built",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1493,7 +1676,14 @@
     "source_url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0068"
+    "team_rule_id": "r-0068",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "Los Angeles, CA",
@@ -1515,7 +1705,13 @@
     "source_url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0069"
+    "team_rule_id": "r-0069",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "MA",
@@ -1537,7 +1733,8 @@
     "source_url": "https://malegislature.gov/Bills/194/H5222",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0070"
+    "team_rule_id": "r-0070",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1559,7 +1756,8 @@
     "source_url": "https://malegislature.gov/Bills/194/S2983",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0071"
+    "team_rule_id": "r-0071",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1581,7 +1779,8 @@
     "source_url": "https://malegislature.gov/Bills/194/S2983/BillHistory",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0072"
+    "team_rule_id": "r-0072",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1603,7 +1802,10 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0073"
+    "team_rule_id": "r-0073",
+    "depends_on": [
+      "unit_count"
+    ]
   },
   {
     "jurisdiction": "MA",
@@ -1625,7 +1827,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0074"
+    "team_rule_id": "r-0074",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1647,7 +1850,12 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0075"
+    "team_rule_id": "r-0075",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "MA",
@@ -1669,7 +1877,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section11",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0076"
+    "team_rule_id": "r-0076",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1691,7 +1900,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section12",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0077"
+    "team_rule_id": "r-0077",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1713,7 +1923,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0078"
+    "team_rule_id": "r-0078",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1735,7 +1946,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0079"
+    "team_rule_id": "r-0079",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1757,7 +1969,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0080"
+    "team_rule_id": "r-0080",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1779,7 +1992,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0081"
+    "team_rule_id": "r-0081",
+    "depends_on": []
   },
   {
     "jurisdiction": "MA",
@@ -1801,7 +2015,8 @@
     "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section18",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0082"
+    "team_rule_id": "r-0082",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -1823,7 +2038,11 @@
     "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0083"
+    "team_rule_id": "r-0083",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -1845,7 +2064,11 @@
     "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0084"
+    "team_rule_id": "r-0084",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -1867,7 +2090,8 @@
     "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0085"
+    "team_rule_id": "r-0085",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -1889,7 +2113,10 @@
     "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0086"
+    "team_rule_id": "r-0086",
+    "depends_on": [
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -1911,7 +2138,8 @@
     "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0087"
+    "team_rule_id": "r-0087",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -1933,7 +2161,8 @@
     "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0088"
+    "team_rule_id": "r-0088",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -1955,7 +2184,10 @@
     "source_url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0089"
+    "team_rule_id": "r-0089",
+    "depends_on": [
+      "unit_count"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -1977,7 +2209,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0090"
+    "team_rule_id": "r-0090",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -1999,7 +2232,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0091"
+    "team_rule_id": "r-0091",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -2021,7 +2255,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0092"
+    "team_rule_id": "r-0092",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -2043,7 +2278,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0093"
+    "team_rule_id": "r-0093",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -2065,7 +2301,11 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0094"
+    "team_rule_id": "r-0094",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -2087,7 +2327,10 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0095"
+    "team_rule_id": "r-0095",
+    "depends_on": [
+      "unit_count"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -2109,7 +2352,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0096"
+    "team_rule_id": "r-0096",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -2131,7 +2375,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0097"
+    "team_rule_id": "r-0097",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -2153,7 +2398,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0098"
+    "team_rule_id": "r-0098",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -2175,7 +2421,12 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0099"
+    "team_rule_id": "r-0099",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -2197,7 +2448,8 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0100"
+    "team_rule_id": "r-0100",
+    "depends_on": []
   },
   {
     "jurisdiction": "NJ",
@@ -2219,7 +2471,12 @@
     "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0101"
+    "team_rule_id": "r-0101",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -2241,7 +2498,11 @@
     "source_url": "https://www.nj.gov/oag/dcr/downloads/kyrhousing02.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0102"
+    "team_rule_id": "r-0102",
+    "depends_on": [
+      "unit_count",
+      "owner_occupied"
+    ]
   },
   {
     "jurisdiction": "NJ",
@@ -2263,7 +2524,10 @@
     "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0103"
+    "team_rule_id": "r-0103",
+    "depends_on": [
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2285,7 +2549,14 @@
     "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0104"
+    "team_rule_id": "r-0104",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2307,7 +2578,8 @@
     "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0105"
+    "team_rule_id": "r-0105",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2329,7 +2601,8 @@
     "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0106"
+    "team_rule_id": "r-0106",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2351,7 +2624,14 @@
     "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0107"
+    "team_rule_id": "r-0107",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "owner_occupied",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2373,7 +2653,8 @@
     "source_url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0108"
+    "team_rule_id": "r-0108",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Diego, CA",
@@ -2395,7 +2676,8 @@
     "source_url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0109"
+    "team_rule_id": "r-0109",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2417,7 +2699,10 @@
     "source_url": "https://sf-hrc.org/fair-chance-ordinance",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0110"
+    "team_rule_id": "r-0110",
+    "depends_on": [
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2439,7 +2724,8 @@
     "source_url": "https://sf.gov/information/overview-just-cause-evictions",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0111"
+    "team_rule_id": "r-0111",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2461,7 +2747,11 @@
     "source_url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0112"
+    "team_rule_id": "r-0112",
+    "depends_on": [
+      "year_built",
+      "single_family_or_condo"
+    ]
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2483,7 +2773,8 @@
     "source_url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0113"
+    "team_rule_id": "r-0113",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2505,7 +2796,8 @@
     "source_url": "https://www.sf.gov/reports--archive-relocation-rates",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0114"
+    "team_rule_id": "r-0114",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2527,7 +2819,8 @@
     "source_url": "https://www.sf.gov/reports--archive-relocation-rates",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0115"
+    "team_rule_id": "r-0115",
+    "depends_on": []
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2549,7 +2842,13 @@
     "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0116"
+    "team_rule_id": "r-0116",
+    "depends_on": [
+      "year_built",
+      "unit_count",
+      "single_family_or_condo",
+      "public_funding"
+    ]
   },
   {
     "jurisdiction": "San Francisco, CA",
@@ -2571,7 +2870,8 @@
     "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0117"
+    "team_rule_id": "r-0117",
+    "depends_on": []
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2593,7 +2893,8 @@
     "source_url": "https://santa-ana.gov/departments/rent-stabilization",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0118"
+    "team_rule_id": "r-0118",
+    "depends_on": []
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2615,7 +2916,8 @@
     "source_url": "https://santa-ana.gov/departments/rent-stabilization",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0119"
+    "team_rule_id": "r-0119",
+    "depends_on": []
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2637,7 +2939,10 @@
     "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0120"
+    "team_rule_id": "r-0120",
+    "depends_on": [
+      "year_built"
+    ]
   },
   {
     "jurisdiction": "Santa Ana, CA",
@@ -2659,6 +2964,9 @@
     "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
     "overrides": [],
     "interaction": null,
-    "team_rule_id": "r-0121"
+    "team_rule_id": "r-0121",
+    "depends_on": [
+      "year_built"
+    ]
   }
 ]

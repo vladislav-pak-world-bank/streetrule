@@ -7,6 +7,7 @@ from core.places import jurisdiction_names, legal_place
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_AS_OF = "2026-10-01"
+RESULT_ORDER = ["applies", "unknown", "superseded", "not_yet_effective", "pending"]
 
 YEAR_WORDS = ("year", "built", "occupancy", "constructed", "certificate")
 UNIT_WORDS = ("unit", "apartment", "dwelling")
@@ -69,16 +70,37 @@ def coverage_result(rule: dict, row: dict, as_of: str) -> str | None:
         return "pending"
     if status == "not_yet_effective" or (effective and when and effective > when):
         return "not_yet_effective"
-    text = " ".join(str(rule.get(k) or "") for k in ("coverage_conditions", "exemptions", "requirement"))
-    if _blank(row.get("year_built")) and _mentions(text, YEAR_WORDS):
-        return "unknown"
-    if _blank(row.get("units")) and _mentions(text, UNIT_WORDS):
-        return "unknown"
+    return "unknown" if missing_facts(rule, row) else "applies"
+
+
+def _depends_on(rule: dict) -> list[str]:
+    if "depends_on" in rule:
+        return rule["depends_on"]
+    text = " ".join(str(rule.get(k) or "") for k in ("coverage_conditions", "exemptions"))
+    facts = []
+    if _mentions(text, YEAR_WORDS):
+        facts.append("year_built")
+    if _mentions(text, UNIT_WORDS):
+        facts.append("unit_count")
     if _mentions(text, OWNER_WORDS):
-        units = row.get("units") or ""
-        if not units.isdigit() or int(units) < 5:
-            return "unknown"
-    return "applies"
+        facts.append("owner_occupied")
+    return facts
+
+
+def missing_facts(rule: dict, row: dict) -> list[str]:
+    """Plain-language names of the facts this rule needs that the public record lacks for this address."""
+    units = (row.get("units") or "").strip()
+    missing = []
+    for fact in _depends_on(rule):
+        if fact == "year_built" and _blank(row.get("year_built")):
+            missing.append("year built")
+        elif fact in ("unit_count", "single_family_or_condo") and not units:
+            missing.append("unit count")
+        elif fact == "owner_occupied" and (not units.isdigit() or int(units) < 5):
+            missing.append("whether the owner lives there")
+        elif fact == "public_funding":
+            missing.append("whether the property receives public funding")
+    return list(dict.fromkeys(missing))
 
 
 def rules_for_address(rules: list[dict], row: dict) -> list[dict]:
@@ -90,15 +112,8 @@ def rules_for_address(rules: list[dict], row: dict) -> list[dict]:
 def explain(rule: dict, result: str, row: dict) -> str:
     city, state = legal_place(row["postal_city"], row["state"])
     if result == "unknown":
-        missing = []
-        if _blank(row.get("year_built")):
-            missing.append("year built")
-        if _blank(row.get("units")):
-            missing.append("unit count")
-        if _mentions(str(rule.get("exemptions") or ""), OWNER_WORDS):
-            missing.append("owner type")
-        fact = ", ".join(dict.fromkeys(missing)) or "a coverage fact"
-        return f"Depends on {fact}, which is not in the public record for this address."
+        fact = " and ".join(missing_facts(rule, row)) or "a coverage fact"
+        return f"Depends on {fact}, which the public record does not show for this address."
     if result == "pending":
         return "A bill, not law, as of the query date."
     if result == "not_yet_effective":
@@ -131,6 +146,14 @@ def lookup(rules: list[dict], row: dict, as_of: str = DEFAULT_AS_OF) -> dict:
             "conflict_flag": bool(rule.get("conflict_flag")),
         })
     mark_superseded(hits)
+    seen = set()
+    unique = []
+    for hit in hits:
+        key = (hit["rule"].get("title", "").lower(), hit["rule"].get("quoted_span", "").lower())
+        if key not in seen:
+            seen.add(key)
+            unique.append(hit)
+    hits = sorted(unique, key=lambda h: RESULT_ORDER.index(h["result"]))
     return {
         "address_id": row["address_id"],
         "street_address": row["street_address"],

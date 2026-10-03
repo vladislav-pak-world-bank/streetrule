@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StreetRule</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="bar">
+    <div>
+      <strong>StreetRule</strong>
+      <span class="tag">Which housing rules apply at this address, as of 1 Oct 2026.</span>
+    </div>
+    <span class="meta" id="health"></span>
+  </header>
+  <p class="notice">Not legal advice. Every rule below is quoted from a public source. "Unknown" means the public record is missing a fact the rule depends on.</p>
+  <main>
+    <section>
+      <label for="q">Address</label>
+      <input id="q" placeholder="Start typing a street, or an id like A0001" autocomplete="off">
+      <ul id="matches"></ul>
+    </section>
+    <section id="result"></section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

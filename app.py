@@ -10,7 +10,7 @@ from fastapi.staticfiles import StaticFiles
 ROOT = Path(__file__).resolve().parent
 load_dotenv(ROOT / ".env")
 
-from core.apply import DEFAULT_AS_OF, load_rules, lookup  # noqa: E402
+from core.apply import DEFAULT_AS_OF, change_demos, load_rules, lookup  # noqa: E402
 from core.llm import available  # noqa: E402
 
 app = FastAPI(title="StreetRule")
@@ -25,6 +25,16 @@ def addresses() -> list[dict]:
 @app.get("/")
 def index():
     return FileResponse(ROOT / "static" / "index.html")
+
+
+@app.get("/changes")
+def changes_page():
+    return FileResponse(ROOT / "static" / "changes.html")
+
+
+@app.get("/api/changes")
+def changes():
+    return change_demos()
 
 
 @app.get("/api/health")

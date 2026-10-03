@@ -68,7 +68,9 @@ def coverage_result(rule: dict, row: dict, as_of: str) -> str | None:
     effective = _parse_date(rule.get("effective_date"))
     if status == "pending":
         return "pending"
-    if status == "not_yet_effective" or (effective and when and effective > when):
+    if effective and when and effective > when:
+        return "not_yet_effective"
+    if status == "not_yet_effective" and not (effective and when and effective <= when):
         return "not_yet_effective"
     return "unknown" if missing_facts(rule, row) else "applies"
 
@@ -98,7 +100,7 @@ def missing_facts(rule: dict, row: dict) -> list[str]:
             missing.append("unit count")
         elif fact == "owner_occupied" and (not units.isdigit() or int(units) < 5):
             missing.append("whether the owner lives there")
-        elif fact == "public_funding":
+        elif fact == "public_funding" and _mentions(rule.get("coverage_conditions"), ("funding", "subsid", "publicly", "inclusionary")):
             missing.append("whether the property receives public funding")
     return list(dict.fromkeys(missing))
 
@@ -138,12 +140,20 @@ def lookup(rules: list[dict], row: dict, as_of: str = DEFAULT_AS_OF) -> dict:
         result = coverage_result(rule, row, as_of)
         if result is None:
             continue
+        conflict, note = bool(rule.get("conflict_flag")), rule.get("conflict_note")
+        if rule.get("jurisdiction") == "NJ" and rule.get("category") == "algorithmic_rent_setting" and city in ("Jersey City", "Hoboken"):
+            conflict = True
+            note = (
+                "Once the New Jersey FAIR Act takes effect on 2027-07-01 it may preempt a local algorithmic-pricing ban. "
+                "Jersey City and Hoboken are flagged for review. Their ordinance text was not in the corpus."
+            )
         hits.append({
             "rule": rule,
             "team_rule_id": rule["team_rule_id"],
             "result": result,
             "explanation": explain(rule, result, row),
-            "conflict_flag": bool(rule.get("conflict_flag")),
+            "conflict_flag": conflict,
+            "conflict_note": note,
         })
     mark_superseded(hits)
     seen = set()
@@ -170,7 +180,10 @@ def lookup(rules: list[dict], row: dict, as_of: str = DEFAULT_AS_OF) -> dict:
                 "result": h["result"],
                 "explanation": h["explanation"],
                 "conflict_flag": h["conflict_flag"],
-                "conflict_note": h["rule"].get("conflict_note"),
+                "conflict_note": h.get("conflict_note"),
+                "jurisdiction": h["rule"].get("jurisdiction"),
+                "level": h["rule"].get("level"),
+                "effective_date": h["rule"].get("effective_date"),
                 "title": h["rule"].get("title"),
                 "category": h["rule"].get("category"),
                 "citation": h["rule"].get("citation"),
@@ -210,7 +223,7 @@ def build_changes(rows: list[dict]) -> dict:
         "T2": {
             "affected_address_ids": hoboken + jersey,
             "conflict_flag_address_ids": [],
-            "notes": "Hoboken ban only in Hoboken. Jersey City ban only in Jersey City. Neither in Newark.",
+            "notes": "The boundary is the city line: Hoboken addresses, Jersey City addresses, and not Newark. The ordinance text for both cities is link-only in this corpus, so those bans are not quoted as rules in force.",
         },
         "T3": {
             "affected_address_ids": nj,
@@ -225,8 +238,112 @@ def build_changes(rows: list[dict]) -> dict:
         "T5": {
             "affected_address_ids": [],
             "conflict_flag_address_ids": [],
-            "notes": "The Massachusetts rent-control ballot question was struck on 2026-06-23. No Boston or Cambridge address has a rent cap from it.",
+            "notes": "The Massachusetts rent-control ballot question was struck on 2026-06-23. The only source for that (D059) is a link with no text in the corpus, so no Boston or Cambridge address is given a rent cap from it.",
         },
+    }
+
+
+def _sample(rows: list[dict], state: str, city: str) -> dict:
+    for row in rows:
+        legal, st = legal_place(row["postal_city"], row["state"])
+        if st == state and legal == city:
+            return row
+    raise KeyError(city)
+
+
+def _label(row: dict) -> str:
+    return f"{row['street_address']}, {row['postal_city']}, {row['state']}"
+
+
+def _matching(rules: list[dict], row: dict, as_of: str, category: str, jurisdiction: str | None = None, level: str | None = None) -> list[dict]:
+    hits = []
+    for hit in lookup(rules, row, as_of)["hits"]:
+        if hit["category"] != category:
+            continue
+        if jurisdiction and hit.get("jurisdiction") != jurisdiction:
+            continue
+        if level and hit.get("level") != level:
+            continue
+        hits.append(hit)
+    return hits
+
+
+def change_demos() -> dict:
+    """One worked example of each change test, computed from the same lookup the address page uses."""
+    rows, rules = load_addresses(), load_rules()
+    changes = build_changes(rows)
+    san_diego = _sample(rows, "CA", "San Diego")
+    hoboken = _sample(rows, "NJ", "Hoboken")
+    jersey = _sample(rows, "NJ", "Jersey City")
+    newark = _sample(rows, "NJ", "Newark")
+    boston = _sample(rows, "MA", "Boston")
+
+    def line(hit: dict, as_of: str) -> str:
+        flag = " Conflict flagged." if hit["conflict_flag"] else ""
+        return f"{as_of}: {hit['result'].replace('_', ' ')} — {hit['title']}.{flag}"
+
+    t1 = _matching(rules, san_diego, "2025-12-31", "algorithmic_rent_setting", "CA")
+    t1_after = _matching(rules, san_diego, "2026-01-02", "algorithmic_rent_setting", "CA")
+    fair_now = _matching(rules, newark, "2026-10-01", "algorithmic_rent_setting", "NJ")
+    fair_later = _matching(rules, newark, "2027-07-02", "algorithmic_rent_setting", "NJ")
+    fair_jersey = _matching(rules, jersey, "2026-10-01", "algorithmic_rent_setting", "NJ")
+    bills = _matching(rules, boston, DEFAULT_AS_OF, "algorithmic_rent_setting", "MA")
+    rent = _matching(rules, boston, DEFAULT_AS_OF, "rent_increase_limits")
+
+    def city_gap_ids(row: dict) -> str:
+        city, state = legal_place(row["postal_city"], row["state"])
+        target = f"{city}, {state}"
+        ids = [
+            gap["doc_id"]
+            for gap in load_gaps()
+            if target in {part.strip() for part in gap["jurisdictions"].split(";")}
+        ]
+        return ", ".join(ids) or "none"
+
+    boundary = []
+    for row in (hoboken, jersey, newark):
+        found = _matching(rules, row, DEFAULT_AS_OF, "algorithmic_rent_setting", level="city")
+        names = ", ".join(hit["title"] for hit in found) or "no city algorithmic rule quoted"
+        boundary.append(f"{_label(row)} — legal city {lookup(rules, row)['legal_city']}. {names}. City sources with no text: {city_gap_ids(row)}.")
+
+    examples = {
+        "T1": [f"Example: {_label(san_diego)}.", line(t1[0], "2025-12-31"), line(t1_after[0], "2026-01-02")],
+        "T2": boundary,
+        "T3": [
+            f"Newark example: {_label(newark)}.",
+            line(fair_now[0], "2026-10-01"),
+            line(fair_later[0], "2027-07-02"),
+            f"Jersey City example: {_label(jersey)}.",
+            line(fair_jersey[0], "2026-10-01"),
+        ],
+        "T4": [f"Example: {_label(boston)}."] + [line(hit, DEFAULT_AS_OF) for hit in bills],
+        "T5": [
+            f"Example: {_label(boston)}.",
+            "No rent cap is returned for this address.",
+            "The rent rule that does appear forbids rent control. It is not the struck ballot question: "
+            + ("; ".join(hit["title"] for hit in rent) or "none")
+            + ".",
+        ],
+    }
+    titles = {
+        "T1": "California rent-algorithm law takes effect",
+        "T2": "Hoboken and Jersey City are different cities",
+        "T3": "New Jersey FAIR Act is not in force yet",
+        "T4": "Massachusetts algorithm bills have not passed",
+        "T5": "The struck Massachusetts rent-cap question covers nobody",
+    }
+    return {
+        "tests": [
+            {
+                "id": test_id,
+                "title": titles[test_id],
+                "affected": len(changes[test_id]["affected_address_ids"]),
+                "flagged": len(changes[test_id]["conflict_flag_address_ids"]),
+                "notes": changes[test_id]["notes"],
+                "lines": examples[test_id],
+            }
+            for test_id in ("T1", "T2", "T3", "T4", "T5")
+        ]
     }
 
 

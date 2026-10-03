@@ -349,7 +349,7 @@
       "A0495"
     ],
     "conflict_flag_address_ids": [],
-    "notes": "Hoboken ban only in Hoboken. Jersey City ban only in Jersey City. Neither in Newark."
+    "notes": "The boundary is the city line: Hoboken addresses, Jersey City addresses, and not Newark. The ordinance text for both cities is link-only in this corpus, so those bans are not quoted as rules in force."
   },
   "T3": {
     "affected_address_ids": [
@@ -707,6 +707,6 @@
   "T5": {
     "affected_address_ids": [],
     "conflict_flag_address_ids": [],
-    "notes": "The Massachusetts rent-control ballot question was struck on 2026-06-23. No Boston or Cambridge address has a rent cap from it."
+    "notes": "The Massachusetts rent-control ballot question was struck on 2026-06-23. The only source for that (D059) is a link with no text in the corpus, so no Boston or Cambridge address is given a rent cap from it."
   }
 }

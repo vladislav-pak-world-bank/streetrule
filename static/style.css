@@ -16,6 +16,11 @@ h1 { font-size: 22px; font-weight: 600; margin: 8px 0; }
 h2 { font-size: 16px; margin: 0 0 4px; }
 p { margin: 4px 0; }
 
+nav { display: flex; gap: 16px; align-items: baseline; }
+nav a { color: #1f3a5f; }
+ul.plain { border: 0; margin-top: 8px; }
+ul.plain li { cursor: default; padding: 4px 0; }
+
 .conflict {
   border-left: 3px solid #b26a00;
   padding-left: 10px;

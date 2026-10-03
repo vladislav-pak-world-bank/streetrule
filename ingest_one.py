@@ -9,7 +9,17 @@ import argparse
 import json
 from pathlib import Path
 
-from extract import AS_OF, SCHEMA, SYSTEM, normalize_jurisdiction, quote_in_source, tag_dependencies
+from extract import (
+    AS_OF,
+    SCHEMA,
+    SYSTEM,
+    inherit_city_cutoffs,
+    normalize_jurisdiction,
+    quote_in_source,
+    sanitize_conditions,
+    tag_conditions,
+    tag_dependencies,
+)
 from core.llm import structured
 from core.apply import write_outputs
 
@@ -42,12 +52,15 @@ def main() -> None:
         raise SystemExit("No quoted rule survived. The ordinance was not added.")
 
     tag_dependencies(found)
+    tag_conditions(found)
+    sanitize_conditions(found)
     rules_path = ROOT / "output" / "rules.json"
     rules = json.loads(rules_path.read_text())
     start = len(rules) + 1
     for offset, rule in enumerate(found):
         rule["team_rule_id"] = f"r-{start + offset:04d}"
         rules.append(rule)
+    inherit_city_cutoffs(rules)
     rules_path.write_text(json.dumps(rules, indent=2))
     write_outputs()
     print(f"added {len(found)} rules from {args.doc_id}")

@@ -5,17 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>StreetRule · Which housing rules bind this building today</title>
   <meta name="description" content="Address-level rental housing law: state statutes, city ordinances and pending bills, each quoted from its source, with unknown when the public record cannot decide.">
+  <meta name="theme-color" content="#f6f3ee">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,450&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+  <a class="skip" href="#report">Skip to the answer</a>
   <header class="top">
     <div class="wrap">
-      <a class="brand" href="/">Street<b>Rule</b></a>
+      <a class="brand" href="/"><span class="mark" aria-hidden="true"></span>StreetRule</a>
       <nav>
         <a href="/" class="on">Lookup</a>
         <a href="/changes">Change tests</a>
         <a href="/method">Method</a>
         <a href="https://github.com/vladislav-pak-world-bank/streetrule">GitHub</a>
+        <button type="button" class="kbd" id="open-palette">⌘K</button>
       </nav>
     </div>
   </header>
@@ -24,19 +31,19 @@
     <div class="wrap">
       <p class="eyebrow">Rental housing law, one address at a time</p>
       <h1>Which housing rules bind this building today?</h1>
-      <p class="lede">State statutes, city ordinances and pending bills overlap. StreetRule finds the building's legal city, checks each rule's coverage line by line, and quotes the source. When the public record can't decide, it says unknown and names the missing fact.</p>
+      <p class="lede">State statutes, city ordinances and pending bills overlap. StreetRule finds the legal city, checks each rule against the building, and quotes the source. When the record cannot decide, the answer is unknown, and it names the fact that would settle it.</p>
       <div class="search">
-        <input id="q" placeholder="Type a street, a city, or an id like A0065" autocomplete="off" aria-label="Address">
+        <label class="sr" for="q">Address</label>
+        <input id="q" placeholder="Street, city, or an id such as A0065" autocomplete="off">
         <ul id="matches"></ul>
       </div>
       <div class="examples">
-        <span>Try:</span>
-        <button data-id="A0065">Dorchester is legally Boston</button>
-        <button data-id="A0081">A 2005 building in San Francisco</button>
-        <button data-id="A0005">Berkeley, conflicting dates</button>
-        <button data-id="A0008">Jersey City and the FAIR Act</button>
+        <button type="button" data-id="A0065"><b>63 Bailey St</b><span>Dorchester is Boston</span></button>
+        <button type="button" data-id="A0081"><b>145 Taylor St</b><span>Built 2005, outside rent control</span></button>
+        <button type="button" data-id="A0005"><b>Berkeley</b><span>Two published start dates</span></button>
+        <button type="button" data-id="A0008"><b>Jersey City</b><span>FAIR Act, not yet in force</span></button>
       </div>
-      <p class="disclaimer">Not legal advice. A research prototype built on the RealPage challenge corpus: 500 sample addresses, law as of 1 Oct 2026.</p>
+      <p class="disclaimer">Not legal advice. A research prototype on the RealPage challenge corpus: 500 sample addresses, law as of 1 Oct 2026.</p>
     </div>
   </section>
 
@@ -48,61 +55,64 @@
     <section class="block">
       <div class="wrap">
         <h2>Three ways a rule lookup goes wrong</h2>
-        <p class="sub">Most tools match a city name to a list of laws. Each of these mistakes changes the answer for real buildings in the sample.</p>
-        <div class="three">
-          <article>
-            <h3>The mailing city is not the legal city</h3>
-            <p>Dorchester, Roxbury and Allston are Boston. San Ysidro is San Diego. A city-name match sends their tenants to the wrong law.</p>
+        <p class="sub">A city name matched to a list of laws. Each mistake below changes the answer for real buildings in the sample.</p>
+        <ol class="cases">
+          <li>
+            <div>
+              <h3>The mailing city is not the legal city</h3>
+              <p>Dorchester, Roxbury and Allston are Boston. San Ysidro is San Diego. A name match sends the tenant to the wrong city's law.</p>
+              <button type="button" class="textlink" data-id="A0065">Open 63 Bailey St, Dorchester</button>
+            </div>
             <p class="proof" id="proof-city"></p>
-            <button class="linkish" data-id="A0065">See 63 Bailey St, Dorchester</button>
-          </article>
-          <article>
-            <h3>Coverage hides in the fine print</h3>
-            <p>San Francisco rent control stops at buildings first certified after June 13, 1979. California's cap exempts buildings under 15 years old. StreetRule reads those thresholds and checks them.</p>
+          </li>
+          <li>
+            <div>
+              <h3>Coverage hides in the fine print</h3>
+              <p>San Francisco rent control stops at buildings first certified after 13 June 1979. California's cap exempts buildings under 15 years old. Those thresholds are read as numbers and checked.</p>
+              <button type="button" class="textlink" data-id="A0081">Open 145 Taylor St, built 2005</button>
+            </div>
             <p class="proof" id="proof-coverage"></p>
-            <button class="linkish" data-id="A0081">See a 2005 San Francisco building</button>
-          </article>
-          <article>
-            <h3>A bill is not a law, and dates disagree</h3>
-            <p>New Jersey's FAIR Act is enacted but starts in 2027. Massachusetts's algorithm bills have not passed. Berkeley's ban has two published start dates.</p>
+          </li>
+          <li>
+            <div>
+              <h3>A bill is not a law, and dates disagree</h3>
+              <p>New Jersey's FAIR Act is enacted and starts in 2027. Massachusetts's algorithm bills have not passed. Berkeley's ban has two published start dates.</p>
+              <a class="textlink" href="/changes">Open the five change tests</a>
+            </div>
             <p class="proof" id="proof-status"></p>
-            <a href="/changes">See the five change tests</a>
-          </article>
-        </div>
+          </li>
+        </ol>
       </div>
     </section>
 
     <section class="block">
       <div class="wrap">
         <h2>Unknown is a to-do list</h2>
-        <p class="sub">Public records leave out facts that decide coverage. Across the 500 addresses, these are the missing facts behind every "unknown", ranked by how many answers each one would settle.</p>
+        <p class="sub">Public records leave out facts that decide coverage. Across the 500 addresses, these are the missing facts behind every unknown, ranked by how many answers each one would settle.</p>
         <div class="drivers" id="drivers"></div>
-        <div class="callout">A property manager already knows these facts. On any address, enter them in the facts panel and the answer is recomputed on the spot, with each check shown. The public-data version tells you what to collect; the manager's own data closes it.</div>
+        <p class="pull">A property manager already knows these facts. Enter one on an address and every rule is checked again. The public-data version says what to collect. The manager's own data closes it.</p>
       </div>
     </section>
 
     <section class="block">
       <div class="wrap">
-        <h2>How it works</h2>
-        <p class="sub">Every step is automated, inspectable, and tested. <a href="/method">Read the method and the evidence.</a></p>
-        <div class="steps">
-          <article><h3>Read the law</h3><p>A model reads each of the supplied documents and returns rules in a strict schema. A rule is kept only if its quote appears word for word in the source.</p></article>
-          <article><h3>Extract the thresholds</h3><p>A second pass turns coverage text into numbers: cutoff dates, unit limits, owner-occupied and new-construction exemptions.</p></article>
-          <article><h3>Find the legal city</h3><p>Each address goes to the US Census Geocoder. A match to a different house number is rejected rather than trusted.</p></article>
-          <article><h3>Decide, and show the work</h3><p>Plain arithmetic decides each rule as of the query date: applies, unknown, superseded, not yet effective, or pending. Every check is listed.</p></article>
+        <h2>The sample, by legal city</h2>
+        <p class="sub">Counts are rule-and-address pairs. Outside cutoff means the building failed a threshold in the rule itself.</p>
+        <div class="table-scroll">
+          <table class="metrics ledger" id="cities"></table>
         </div>
       </div>
     </section>
 
     <section class="block">
       <div class="wrap">
-        <h2>Who it is for</h2>
-        <p class="sub">The same answer, read by four people with different stakes.</p>
-        <div class="who">
-          <article><h3>Property managers</h3><p>Know which buildings in a portfolio a new law touches, and what to collect to be sure.</p></article>
-          <article><h3>Small landlords</h3><p>See the deposit cap, notice rules and rent limits that apply to the one building they own.</p></article>
-          <article><h3>Renters</h3><p>Check whether rent control or just-cause protection covers their unit, with the law quoted.</p></article>
-          <article><h3>Advocates and counsel</h3><p>Start from cited rules and flagged conflicts instead of a blank page. Not a substitute for advice.</p></article>
+        <h2>How an answer is made</h2>
+        <p class="sub">The model reads. Arithmetic decides. <a href="/method">Method and evidence</a></p>
+        <div class="steps">
+          <article><h3>Read the law</h3><p>Each supplied document is read into a strict schema. A rule is kept only when its quote appears word for word in the source.</p></article>
+          <article><h3>Extract the thresholds</h3><p>Coverage text becomes cutoff dates, unit limits, and owner-occupied and new-construction exemptions.</p></article>
+          <article><h3>Find the legal city</h3><p>The US Census Geocoder returns the incorporated place. A match to a different house number is rejected.</p></article>
+          <article><h3>Decide, and show the work</h3><p>Each rule is applies, unknown, superseded, not yet in force, or a bill. Every check is listed under the quote.</p></article>
         </div>
       </div>
     </section>
@@ -114,10 +124,11 @@
 
   <footer>
     <div class="wrap">
-      <span>StreetRule · Not legal advice. Every rule is quoted from a public source in the RealPage challenge corpus.</span>
-      <span>Built at Hack-Nation 7, New York hub.</span>
+      <span>StreetRule. Not legal advice. Every rule is quoted from a public source in the challenge corpus.</span>
+      <span>Hack-Nation 7, New York hub</span>
     </div>
   </footer>
   <script src="/static/app.js"></script>
+  <script src="/static/shell.js"></script>
 </body>
 </html>

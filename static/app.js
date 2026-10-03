@@ -1,6 +1,13 @@
 const $ = (id) => document.getElementById(id);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const fmt = (n) => Number(n).toLocaleString("en-US");
+const pretty = (value) => String(value || "").toLowerCase().replace(/(^|[\s\-./])([a-z])/g, (m, gap, letter) => gap + letter.toUpperCase());
+const prettyLabel = (label) => {
+  const parts = String(label).split(", ");
+  const state = parts.length > 1 ? parts.pop() : "";
+  const body = parts.map(pretty).join(", ");
+  return state ? `${body}, ${state}` : body;
+};
 
 const RESULT = {
   applies: { label: "Applies", why: "In force and covers this building." },
@@ -30,7 +37,7 @@ fetch("/api/insights").then((r) => r.json()).then((data) => {
     [fmt(data.naive_wrong_city), "addresses whose mailing city is not their legal city"],
     [fmt(data.naive_overreach), "rule matches a city-name lookup would wrongly apply"],
     [fmt(data.conflicts), "open questions in the law flagged for review"],
-  ].map(([n, l]) => `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
+  ].map(([n, l], i) => `<div class="stat${i === 2 || i === 3 ? " signal" : ""}"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
 
   const census = data.place_methods.census || 0;
   $("proof-city").textContent = `${data.naive_wrong_city} of ${data.addresses} sample addresses use a neighborhood or mailing name. ${census} legal cities are confirmed by the US Census Geocoder.`;
@@ -44,6 +51,13 @@ fetch("/api/insights").then((r) => r.json()).then((data) => {
       <div class="bar"><span style="width:${(100 * d.answers / top).toFixed(1)}%"></span></div>
       <div class="num">${fmt(d.answers)} answers · ${fmt(d.addresses)} addresses</div>
     </div>`).join("");
+
+  const cities = $("cities");
+  if (cities) {
+    cities.innerHTML = `<thead><tr><th>Legal city</th><th>Addresses</th><th>Applies</th><th>Unknown</th><th>Outside cutoff</th></tr></thead><tbody>` +
+      data.by_city.map((c) => `<tr><td>${esc(c.city)}</td><td>${fmt(c.addresses)}</td><td>${fmt(c.applies)}</td><td>${fmt(c.unknown)}</td><td>${fmt(c.not_covered)}</td></tr>`).join("") +
+      "</tbody>";
+  }
 });
 
 /* Search */
@@ -71,7 +85,7 @@ async function search() {
   cursor = -1;
   if (text.length < 2) return;
   options = await fetch("/api/addresses?q=" + encodeURIComponent(text)).then((r) => r.json());
-  $("matches").innerHTML = options.map((o) => `<li data-id="${esc(o.address_id)}">${esc(o.label)}</li>`).join("");
+  $("matches").innerHTML = options.map((o) => `<li data-id="${esc(o.address_id)}">${esc(prettyLabel(o.label))}</li>`).join("");
 }
 
 document.addEventListener("click", (event) => {
@@ -100,6 +114,7 @@ async function render() {
   $("matches").innerHTML = "";
   if (!p.id) {
     document.body.classList.remove("reporting");
+    document.title = "StreetRule · Which housing rules bind this building today";
     $("report").classList.add("hidden");
     $("landing").classList.remove("hidden");
     $("q").value = "";
@@ -111,10 +126,11 @@ async function render() {
   if (!response.ok) { $("report-body").innerHTML = `<p>Address not found.</p>`; return; }
   current = await response.json();
   document.body.classList.add("reporting");
+  document.title = `${pretty(current.street_address)} · StreetRule`;
   $("landing").classList.add("hidden");
   $("report").classList.remove("hidden");
   $("report-body").innerHTML = report(current);
-  $("q").value = `${current.street_address}, ${current.postal_city}, ${current.state}`;
+  $("q").value = `${pretty(current.street_address)}, ${pretty(current.postal_city)}, ${current.state}`;
   window.scrollTo({ top: 0 });
   bindFacts();
 }
@@ -129,18 +145,18 @@ function placeBadge(place) {
 function report(d) {
   const supplied = new Set(d.supplied);
   const counts = Object.entries(d.counts).filter(([, n]) => n).map(([k, n]) =>
-    `<span class="count" style="border-left-color:var(--${cssVar(k)})">${n} ${RESULT[k].label.toLowerCase()}</span>`).join("");
+    `<button type="button" class="count" data-jump="g-${k}" style="border-bottom-color:var(--${cssVar(k)})">${n} ${RESULT[k].label.toLowerCase()}</button>`).join("");
   const groups = ["applies", "unknown", "superseded", "not_yet_effective", "pending"].map((result) => {
     const hits = d.hits.filter((h) => h.result === result);
     if (!hits.length) return "";
     const byTopic = Object.keys(CATEGORY).map((cat) => {
       const inTopic = hits.filter((h) => h.category === cat);
-      return inTopic.length ? `<h4 class="topic">${CATEGORY[cat]} <small>${inTopic.length}</small></h4>${inTopic.map(card).join("")}` : "";
+      return inTopic.length ? `<h4 class="topic" data-cat="${cat}">${CATEGORY[cat]} <small>${inTopic.length}</small></h4>${inTopic.map(card).join("")}` : "";
     }).join("");
     return `<div class="group" id="g-${result}"><h2>${RESULT[result].label} <small>${hits.length}</small></h2><p class="why">${RESULT[result].why}</p>${byTopic}</div>`;
   }).join("");
   const outside = d.hits.filter((h) => h.result === "not_covered");
-  const outsideBlock = outside.length ? `<details class="outside"><summary>Outside coverage <small>${outside.length} checked and excluded</small></summary><p class="why">${RESULT.not_covered.why}</p>${outside.map(card).join("")}</details>` : "";
+  const outsideBlock = outside.length ? `<details class="outside" id="g-not_covered"><summary>Outside coverage <small>${outside.length} checked and excluded</small></summary><p class="why">${RESULT.not_covered.why}</p>${outside.map(card).join("")}</details>` : "";
   const gaps = d.gaps.length ? `<div class="gap-box"><h3>Sources we could not read</h3><p>These cover this place, but the corpus has only a link, not the text. Their rules are not shown above; check them directly.</p><ul>${d.gaps.map((g) => `<li><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.doc_id)}</a> · ${esc(new URL(g.url).hostname)}</li>`).join("")}</ul></div>` : "";
   const settle = d.unknown_drivers.length ? `<div class="settle"><h2>What would settle the unknowns</h2><ul>${d.unknown_drivers.map((u) => `<li>${esc(u.label)}: ${u.rules} rule${u.rules > 1 ? "s" : ""}</li>`).join("")}</ul></div>` : "";
   const facts = d.facts;
@@ -152,14 +168,16 @@ function report(d) {
   return `
     <a class="back" href="/">← All addresses</a>
     <div class="report-head">
-      <h1>${esc(d.street_address)}, ${esc(d.postal_city)}, ${esc(d.state)}</h1>
+      <h1>${esc(pretty(d.street_address))}, ${esc(pretty(d.postal_city))}, ${esc(d.state)}</h1>
       <div class="where">
         <span>Legal city <b>${esc(d.legal_city)}, ${esc(d.state)}</b></span>${placeBadge(d.place)}
         <span>As of <b>${esc(d.as_of)}</b></span>
         <span>${esc(d.use_description || "")}</span>
+        <button type="button" class="textlink" id="copy-link">Copy link</button>
       </div>
       <p class="legal">Not legal advice. Each rule below is quoted from a public source in the challenge corpus. Unknown means the public record lacks a fact the rule depends on.</p>
     </div>
+    ${contrastBlock(d)}
     <div class="counts">${counts}</div>
     <div class="layout">
       <aside class="facts">
@@ -174,8 +192,44 @@ function report(d) {
         <button class="reset" id="reset">Reset to the public record</button>
         ${settle}
       </aside>
-      <div>${summary(d)}${groups}${outsideBlock}${gaps}</div>
+      <div>${summary(d)}${toolbar(d)}${groups}${outsideBlock}${gaps}</div>
     </div>`;
+}
+
+function contrastBlock(d) {
+  const wrong = [];
+  const right = [];
+  const sameCity = d.postal_city.toLowerCase() === d.legal_city.toLowerCase();
+  if (sameCity) {
+    wrong.push(`Takes the mailing city, ${d.postal_city}, and lists the rules for that city.`);
+    right.push(`Legal city is ${d.legal_city}. Each rule is then checked against this building.`);
+  } else {
+    wrong.push(`Treats the mailing city, ${d.postal_city}, as the legal city.`);
+    const how = d.place.method === "census" ? "The US Census Geocoder confirms it." : d.place.note;
+    right.push(`Legal city is ${d.legal_city}. ${how}`);
+  }
+  const outside = d.hits.filter((h) => h.result === "not_covered");
+  if (outside.length) {
+    const why = (outside[0].checks.find((c) => c.state === "fail") || {}).text || outside[0].title;
+    wrong.push(`Reports ${outside.length} more ${outside.length > 1 ? "rules" : "rule"} as applying.`);
+    right.push(`Excludes ${outside.length > 1 ? "them" : "it"}. ${why}`);
+  }
+  const later = d.hits.filter((h) => h.result === "pending" || h.result === "not_yet_effective");
+  if (later.length) {
+    wrong.push(`Counts ${later.length} ${later.length > 1 ? "bills or future laws" : "bill or future law"} as in force today.`);
+    right.push(`Keeps ${later.length > 1 ? "them" : "it"} apart from law in force.`);
+  }
+  const unknown = d.counts.unknown || 0;
+  if (unknown) {
+    wrong.push("Treats a missing fact as covered.");
+    right.push(`${unknown} ${unknown > 1 ? "answers stay" : "answer stays"} unknown, and each one names the missing fact.`);
+  }
+  return `<div class="contrast"><div><p class="k">City-name lookup</p><ul>${wrong.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div><div><p class="k">StreetRule</p><ul>${right.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div></div>`;
+}
+
+function toolbar(d) {
+  const cats = Object.entries(CATEGORY).filter(([cat]) => d.hits.some((h) => h.category === cat));
+  return `<div class="toolbar"><button type="button" class="chip on" data-filter="">All topics</button>${cats.map(([cat, label]) => `<button type="button" class="chip" data-filter="${cat}">${label}</button>`).join("")}</div>`;
 }
 
 function summary(d) {
@@ -209,7 +263,7 @@ function card(h) {
   const checks = h.checks && h.checks.length ? `<ul class="checks">${h.checks.map((c) => `<li class="${c.state}">${esc(c.text)}</li>`).join("")}</ul>` : "";
   const conflict = h.conflict_flag && h.conflict_note ? `<div class="conflict"><b>Conflict flagged for review.</b> ${esc(h.conflict_note)}</div>` : "";
   const key = h.key_value ? `<div class="key">${esc(h.key_value)}</div>` : "";
-  return `<article class="card ${h.result}">
+  return `<article class="card ${h.result}" data-cat="${h.category}">
     <div class="tags"><span class="tag result ${h.result}">${RESULT[h.result].label}</span><span class="tag">${CATEGORY[h.category] || h.category}</span><span class="tag">${esc(level)}</span>${h.reviewed ? '<span class="tag">Human-reviewed</span>' : ""}</div>
     <h3>${esc(h.title)}</h3>
     <p>${esc(h.explanation)}</p>
@@ -230,6 +284,34 @@ function bindFacts() {
     open(current.address_id, extra);
   };
   $("reset").onclick = () => open(current.address_id);
+  document.querySelectorAll("[data-jump]").forEach((button) => {
+    button.onclick = () => {
+      const target = document.getElementById(button.dataset.jump);
+      if (!target) return;
+      if (target.tagName === "DETAILS") target.open = true;
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+  });
+  document.querySelectorAll("[data-filter]").forEach((button) => {
+    button.onclick = () => applyFilter(button.dataset.filter);
+  });
+  const copy = $("copy-link");
+  if (copy) copy.onclick = async () => {
+    try { await navigator.clipboard.writeText(location.href); }
+    catch { return; }
+    if (window.streetToast) window.streetToast("Link copied");
+  };
 }
 
+function applyFilter(cat) {
+  document.querySelectorAll("[data-filter]").forEach((button) => button.classList.toggle("on", button.dataset.filter === cat));
+  document.querySelectorAll(".card[data-cat], h4.topic[data-cat]").forEach((el) => {
+    el.classList.toggle("hidden", Boolean(cat) && el.dataset.cat !== cat);
+  });
+  document.querySelectorAll(".group").forEach((group) => {
+    group.classList.toggle("hidden", ![...group.querySelectorAll(".card")].some((card) => !card.classList.contains("hidden")));
+  });
+}
+
+window.streetOpen = open;
 render();

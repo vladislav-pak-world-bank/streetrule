@@ -27,7 +27,7 @@ A blank year-built field should not become "rent control applies". StreetRule re
 | Year built | 864 | 206 |
 | Public funding or income limits | 660 | 310 |
 
-On any address page, enter the fact and press *Check again*: every rule is re-decided and the URL keeps the scenario. Change the year built of 145 Taylor St, San Francisco from 2005 to 1975 and the city's 1.6% rent-control limit applies, while California's statewide cap turns to *superseded by local law*.
+Every address opens with the city-name lookup beside StreetRule's decision. Press ⌘K (Ctrl K on Windows) to jump to another address. Enter a missing fact and press *Check again*: every rule is re-decided, and the URL keeps the scenario. Change the year built of 145 Taylor St, San Francisco from 2005 to 1975 and the city's 1.6% rent-control limit applies, while California's statewide cap turns to *superseded by local law*.
 
 ![Address report](docs/report.png)
 

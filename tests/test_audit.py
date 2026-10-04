@@ -42,6 +42,12 @@ def test_every_jurisdiction_matches_the_manifest():
     assert bad == []
 
 
+def test_effective_dates_match_the_schema():
+    pat = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+    bad = [rule["team_rule_id"] for rule in rules() if rule.get("effective_date") and not pat.match(rule["effective_date"])]
+    assert bad == []
+
+
 def test_status_agrees_with_the_effective_date():
     bad = []
     for rule in rules():
